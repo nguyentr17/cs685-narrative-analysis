@@ -10,7 +10,9 @@ class Collection:
     def __init__(self):
         self.api = PushshiftAPI()
         self.before = int(datetime(2023,1,31,0,0).timestamp())  # Jan 31, 2023
-        self.after = int(datetime(2020,1,1,0,0).timestamp()) # Jan 1, 2020
+        # self.before = int(datetime(2017,1,31,0,0).timestamp()) # Jan 31, 2017
+        # self.after = int(datetime(2020,1,1,0,0).timestamp()) # Jan 1, 2020
+        self.after = int(datetime(2015,1,1,0,0).timestamp()) # Jan 1, 2015
 
     def get_nutrition_subreddits(self):
         subreddits = [
@@ -62,65 +64,41 @@ class Collection:
         ]
         return subreddits
 
+    def get_older_columns(self):
+        cols = [
+            'created_utc',
+            'id',
+            'author',
+            'title',
+            'subreddit_id',
+            'url',
+            'subreddit',
+            'selftext',
+            'permalink',
+            'score',
+            'author_flair_text',
+            'over_18',
+        ]
+        return cols
+
     def get_columns(self):
         cols = [
             'subreddit',
             'selftext',
             'author_fullname',
-            'gilded',
             'title',
-            'subreddit_name_prefixed',
-            'hidden',
-            'pwls',
-            'quarantine',
-            'link_flair_text_color',
-            'upvote_ratio',
-            'subreddit_type',
-            'total_awards_received',
-            'is_original_content',
-            'is_reddit_media_domain',
-            'is_meta',
             'score',
-            'is_created_from_ads_ui',
-            'author_premium',
-            'thumbnail',
-            'edited',
-            'is_self',
             'link_flair_type',
-            'wls',
             'author_flair_type',
-            'domain',
-            'allow_live_comments',
-            'archived',
-            'no_follow',
-            'pinned',
             'over_18',
-            'media_only',
-            'can_gild',
-            'spoiler',
-            'locked',
             'author_flair_text',
             'subreddit_id',
-            'link_flair_background_color',
             'id',
-            'is_robot_indexable',
             'author',
-            'num_comments',
-            'send_replies',
-            'whitelist_status',
-            'contest_mode',
             'author_patreon_flair',
             'permalink',
-            'parent_whitelist_status',
-            'stickied',
             'url',
-            'subreddit_subscribers',
             'created_utc',
-            'num_crossposts',
-            'is_video',
-            'retrieved_utc',
-            'updated_utc',
-            'utc_datetime_str',
         ]
         return cols
 
@@ -145,13 +123,18 @@ class Collection:
 
     def get_submissions(self):
         for subreddit in self.get_ed_subreddits():
+            self.before = int(datetime(2023,1,31,0,0).timestamp())
             print(f"Subreddit: {subreddit}\n")
             count = 0
             round = self.collection_round(subreddit=subreddit)
-            # round = round.loc[round['id'] != '']
-            # round = round.loc[round['id'] != None]
-            count += round.shape[0]
-            print(f"    Count: {count}\n")
+
+            try:
+                df2 = round.groupby(['id'])['id'].count()
+                print(f"    Unique IDs: {len(df2)}\n")
+            except:
+                print("     Collected 0, outside while loop\n")
+
+            count += len(df2)
 
             try:
                 text_author = round[['id','selftext']]
@@ -159,13 +142,26 @@ class Collection:
 
                 limited = round[self.get_columns()]
                 limited.to_sql('subreddit_submission_metadata', con=engine, if_exists='append', index=False)
+
             except Exception as e:
                 print(f"    {e}")
+                try:    
+                    older_limited = round[self.get_older_columns()]
+                    older_limited.to_sql('subreddit_submission_metadata',con=engine,if_exists='append',index=False)
+                except Exception as e:
+                    print("OLDER LIMITED\n")
+                    print(f"    {e}")
 
             while round.shape[0] > 0:
                 round = self.collection_round(subreddit=subreddit)
-                count += round.shape[0]
-                print(f"    Count: {count}\n")
+
+                try:
+                    df2 = round.groupby(['id'])['id'].count()
+                    print(f"    Unique IDs: {len(df2)}\n")
+                except:
+                    print("     Collected 0, in while loop\n")
+
+                count += len(df2)
                 try:
                     text_author = round[['id','selftext']]
                     text_author.to_sql('submission_content', con=engine, if_exists='append', index=False)
@@ -174,3 +170,11 @@ class Collection:
                     limited.to_sql('subreddit_submission_metadata', con=engine, if_exists='append', index=False)
                 except Exception as e:
                     print(f"    {e}")
+                    try:    
+                        older_limited = round[self.get_older_columns()]
+                        older_limited.to_sql('subreddit_submission_metadata',con=engine,if_exists='append',index=False)
+                    except Exception as e:
+                        print("OLDER LIMITED\n")
+                        print(f"    {e}")
+
+            print(f"    Subreddit Total Count: {count}\n")

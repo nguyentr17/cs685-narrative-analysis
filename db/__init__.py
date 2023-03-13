@@ -7,7 +7,7 @@ Base = models.Base
 
 database = os.getenv("DATABASE_NAME", default="reddit_ed")
 folder_path = os.getenv("DATABASE_FOLDER", default="./")
-version = os.getenv("DATABASE_VERSION", default="0.1.0")
+version = os.getenv("DATABASE_VERSION", default="0.5.0")
 sqlite_path = f"{os.path.join(folder_path,f'{database}_{version}')}.sqlite3"
 engine = create_engine(
     f"sqlite:///{sqlite_path}",
