@@ -178,3 +178,4 @@ class Collection:
                         print(f"    {e}")
 
             print(f"    Subreddit Total Count: {count}\n")
+

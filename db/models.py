@@ -24,6 +24,34 @@ class TextContent(Base):
     selftext = Column(String)
     __table_args__ = (UniqueConstraint("id", sqlite_on_conflict="IGNORE"),)
 
+class Filtered200(Base):
+    """Filtered for >=200 words"""
+
+    __tablename__ = "filtered_200"
+
+    subreddit = Column(String)
+    selftext = Column(String)
+    author_fullname = Column(String)
+    title = Column(String)
+    score = Column(Integer)
+    link_flair_type = Column(String)
+    author_flair_type = Column(String)
+    over_18 = Column(Boolean)
+    author_flair_text = Column(String)
+    subreddit_id = Column(String)
+    id = Column(
+        String,
+        primary_key=True,
+        default=generate_uuid
+    )
+    author = Column(String)
+    author_patreon_flair = Column(Boolean)
+    permalink = Column(String)
+    url = Column(String)
+    created_utc = Column(Integer)
+
+    __table_args__ = (UniqueConstraint("id", sqlite_on_conflict="IGNORE"),)
+
 class SubredditSubmissionMetadata(Base):
     """Subreddit Submission Metadata"""
 
