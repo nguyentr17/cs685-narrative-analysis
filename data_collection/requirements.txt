@@ -1,0 +1,3 @@
+pandas==1.5.3
+pmaw==3.0.0
+SQLAlchemy==2.0.5.post1
