@@ -40,18 +40,18 @@ class Collection:
 
     def get_ed_subreddits(self):
         subreddits = [
-            "EatingDisorders",
-            "eating_disorders",
-            "EatingDisorderHope",
-            "edsupport",
-            "EDAnonymous",
-            "EdAnonymousAdults",
-            "EDRecovery_public",
+            # "EatingDisorders",
+            # "eating_disorders",
+            # "EatingDisorderHope",
+            # "edsupport",
+            # "EDAnonymous",
+            # "EdAnonymousAdults",
+            # "EDRecovery_public",
             # "EDRecovery", # unavailable
-            "AnorexiaNervosa",
-            "AnorexiaRecovery",
+            # "AnorexiaNervosa",
+            # "AnorexiaRecovery",
             # "ProAnaBuddies", # unavailable
-            "anorexiaflareuphelp",
+            # "anorexiaflareuphelp",
             "bulimia",
             "BulimiaRecovery", # not from paper
             "BulimiaAndAnaSupport",
@@ -81,7 +81,7 @@ class Collection:
         ]
         return cols
 
-    def get_columns(self):
+    def get_newer_columns(self):
         cols = [
             'subreddit',
             'selftext',
@@ -101,6 +101,39 @@ class Collection:
             'created_utc',
         ]
         return cols
+
+    def get_columns(self):
+        columns = [
+            'author',
+            'author_flair_css_class',
+            'author_flair_text',
+            'created_utc',
+            # 'distinguished',
+            # 'domain',
+            # 'gilded',
+            # 'hidden',
+            # 'hide_score',
+            'id',
+            'is_self',
+            'link_flair_css_class',
+            'link_flair_text',
+            # 'locked',
+            # 'num_comments',
+            # 'over_18',
+            'permalink',
+            # 'quarantine',
+            # 'retrieved_utc',
+            'score',
+            'selftext',
+            'subreddit',
+            'subreddit_id',
+            'title',
+            # 'treatment_tags',
+            'url',
+            # 'utc_datetime_str',
+        ]
+
+        return columns
 
     def get_time_range(self, oldest_date):
         self.before = oldest_date
@@ -145,12 +178,12 @@ class Collection:
 
             except Exception as e:
                 print(f"    {e}")
-                try:    
-                    older_limited = round[self.get_older_columns()]
-                    older_limited.to_sql('subreddit_submission_metadata',con=engine,if_exists='append',index=False)
-                except Exception as e:
-                    print("OLDER LIMITED\n")
-                    print(f"    {e}")
+                # try:    
+                #     older_limited = round[self.get_old_columns()]
+                #     older_limited.to_sql('subreddit_submission_metadata',con=engine,if_exists='append',index=False)
+                # except Exception as e:
+                #     print("OLDER LIMITED\n")
+                #     print(f"    {e}")
 
             while round.shape[0] > 0:
                 round = self.collection_round(subreddit=subreddit)
@@ -166,16 +199,17 @@ class Collection:
                     text_author = round[['id','selftext']]
                     text_author.to_sql('submission_content', con=engine, if_exists='append', index=False)
 
+                    # limited = round[self.get_columns()]
                     limited = round[self.get_columns()]
                     limited.to_sql('subreddit_submission_metadata', con=engine, if_exists='append', index=False)
                 except Exception as e:
                     print(f"    {e}")
-                    try:    
-                        older_limited = round[self.get_older_columns()]
-                        older_limited.to_sql('subreddit_submission_metadata',con=engine,if_exists='append',index=False)
-                    except Exception as e:
-                        print("OLDER LIMITED\n")
-                        print(f"    {e}")
+                    # try:    
+                    #     # older_limited = round[self.get_older_columns()]
+                    #     older_limited = round[self.get_old_columns()]
+                    #     older_limited.to_sql('subreddit_submission_metadata',con=engine,if_exists='append',index=False)
+                    # except Exception as e:
+                    #     print("OLDER LIMITED\n")
+                    #     print(f"    {e}")
 
             print(f"    Subreddit Total Count: {count}\n")
-
