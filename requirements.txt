@@ -1,0 +1,6 @@
+pandas
+sqlalchemy
+matplotlib
+little_mallet_wrapper
+scipy
+seaborn
