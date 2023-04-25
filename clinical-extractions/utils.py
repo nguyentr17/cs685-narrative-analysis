@@ -77,12 +77,19 @@ def get_few_shot_examples():
 
     Narrative: alright, so, well i dont know how to phrase this well, but my girlfriend has been going through a tough time recently with a vv big relapse on her ED recovery journey, and its quite apparent that she finds it hard to recover again. she seems quite drained and tired from all of that, and she does not want to talk to a counsellor about it as she is afraid her parents would be informed. ive been trying my best to emotionally support her, just watch out for her and stuff like that! i encourage her to eat, but i dont force! same for recovery and all that... its quite emotionally draining for me too, but i can cope with that alright! so that is alright on my end... i just would like to know from all of you here, what motivated you to recover? how can a loved one best support someone suffering from an ED? what is something you wish someone would say or do when you are in recovery?
 
-    {'factors': 'Emotional support from their partner, encouragement to eat but not forcing it', 'effect_details': 'Boyfriend providing support to girlfirned during rough time. Not forcing girlfriend to eat. They are also seeking advice on how to best support their loved one and what can help someone recover from an eating disorder', 'effect_type': 'helpful'}
+    {'factors': 'Emotional support from their partner, encouragement to eat but not forcing it', 'effect_details': 'Boyfriend providing support to girlfriend during rough time. Not forcing girlfriend to eat. They are also seeking advice on how to best support their loved one and what can help someone recover from an eating disorder', 'effect_type': 'helpful'}
 
     Narrative: I started Concerta for my ADHD, and taking it daily has changed my life. I can do the normal life things I need to do, but notably it is a HUGE help with my binging disorder. The medication really helps me to manage impulses surrounding binging. \n\nIt also completely erases my appetite, but I'm making the effort to have multiple healthy meals every day so I'm not accidentally starving myself. So far it's been one solid month and I've lost around 10lbs! That sounds like a lot, but my starting weight was 315lbs, so this needs to happen for my health and wellness. Looking forward to getting into the 200s again
 
     {'factors': 'taking Concerta for ADHD', 'effect_details': ['helps manage impulses surrounding binging', 'reduces appetite', 'lost around 10lbs in one month', 'making the effort to have multiple healthy meals every day'], 'effect_type': 'helpful'}
 
+    Narrative: “I told myself two days ago no more doordash because I can't afford it and well, obviously, binging. Today I had a bad day, and I wanted chick fil a, but, as much as it was screaming inside me, I didn't get fries. Only chicken. So I successfully stayed within my limit today. I still had food out but...progress right?”
+
+    {'factors': 'Making a conscious effort to avoid binging and staying within limits', 'effect_detail': ['Successfully resisting the urge to get fries despite craving Chick-fil-A', 'Acknowledging progress towards making healthier food choices'], 'effect_type': 'helpful'}
+
+    Narrative: I have a girlfriend who's recovering. She had a baby last year and per her mom, it really bothers her if people call her baby chunky or chubby or comment on baby's fat leg rolls. Also she took like one photo of herself while pregnant. Now I'm not in the ED community or anything similar so I DO NOT want to upset or offend anyone but I just think this is ludicrous. I personally loved seeing pix of my mother glowing and pregnant with me. And babies ARE beautifully wonderfully perfectly chubby! I just don't understand at all but I'm not gonna say this to her. Just wondering if this is typical? Again I'm sorry if my thoughts on this upset you - that's not my intention.
+
+    {'factors': 'negative comments on baby's weight', 'effect_detail': ['upsetting and triggering for the girlfriend who is recovering from an eating disorder'], 'effect_type': 'harmful'}
     """
 
 def apply_chatgpt(row, prompt, include_examples):
