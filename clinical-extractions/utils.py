@@ -85,16 +85,16 @@ def get_few_shot_examples():
 
     Narrative: “I told myself two days ago no more doordash because I can't afford it and well, obviously, binging. Today I had a bad day, and I wanted chick fil a, but, as much as it was screaming inside me, I didn't get fries. Only chicken. So I successfully stayed within my limit today. I still had food out but...progress right?”
 
-    {'factors': 'Making a conscious effort to avoid binging and staying within limits', 'effect_detail': ['Successfully resisting the urge to get fries despite craving Chick-fil-A', 'Acknowledging progress towards making healthier food choices'], 'effect_type': 'helpful'}
+    {'factors': 'Making a conscious effort to avoid binging and staying within limits', 'effect_details': ['Successfully resisting the urge to get fries despite craving Chick-fil-A', 'Acknowledging progress towards making healthier food choices'], 'effect_type': 'helpful'}
 
     Narrative: I have a girlfriend who's recovering. She had a baby last year and per her mom, it really bothers her if people call her baby chunky or chubby or comment on baby's fat leg rolls. Also she took like one photo of herself while pregnant. Now I'm not in the ED community or anything similar so I DO NOT want to upset or offend anyone but I just think this is ludicrous. I personally loved seeing pix of my mother glowing and pregnant with me. And babies ARE beautifully wonderfully perfectly chubby! I just don't understand at all but I'm not gonna say this to her. Just wondering if this is typical? Again I'm sorry if my thoughts on this upset you - that's not my intention.
 
-    {'factors': 'negative comments on baby's weight', 'effect_detail': ['upsetting and triggering for the girlfriend who is recovering from an eating disorder'], 'effect_type': 'harmful'}
+    {'factors': 'negative comments on baby's weight', 'effect_details': ['upsetting and triggering for the girlfriend who is recovering from an eating disorder'], 'effect_type': 'harmful'}
     """
 
 def apply_chatgpt(row, prompt, include_examples):
     narrative = row['selftext']
-    max_retries = 3
+    max_retries = 2
     first_time_fail = False
     for i in range(1, 4):
         retries = 0
@@ -119,14 +119,17 @@ def apply_chatgpt(row, prompt, include_examples):
                             {"role": "user", "content":prompt},
                             {"role": "user", "content": narrative},])
                 result = response.choices[0].message.content
+                # print(result)
                 result = eval(result)
-                pdb.set_trace()
                 row[f'factors_{i}'] = result['factors']
                 row[f'effect_type_{i}'] = result['effect_type']
                 row[f'effect_details_{i}'] = result['effect_details']
                 break
             except Exception as e:
+                print(e)
                 retries += 1
+                # print('failed')
+                # print(result)
                 if retries == max_retries:
                     row[f'factors_{i}'] = None
                     row[f'effect_type_{i}'] = None
