@@ -169,11 +169,8 @@ def has_correct_keys(dictionary):
     keys_to_check = ['factors', 'effect_type', 'effect_details']
     return all(key in dictionary for key in keys_to_check)
 
-def apply_chatgpt(row, prompt, include_examples, n = 5):
+def apply_chatgpt(row, prompt, include_examples, n = 6):
     narrative = row['selftext']
-    max_retries = 2
-    first_time_fail = False
-    
     num_tokens_narrative = num_tokens_from_string(narrative, "cl100k_base")
 
     if include_examples:
