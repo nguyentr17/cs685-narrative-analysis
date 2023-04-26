@@ -2,6 +2,19 @@ import openai
 import os
 import pdb
 import time
+import tiktoken
+
+encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
+
+num_tokens_few_shot = 1305
+num_tokens_instructions = 673
+num_tokens_few_shot_small = 492
+
+def num_tokens_from_string(string: str, encoding_name: str) -> int:
+    """Returns the number of tokens in a text string."""
+    encoding = tiktoken.get_encoding(encoding_name)
+    num_tokens = len(encoding.encode(string))
+    return num_tokens
 
 def get_old_instruction_prompt():
   return """I am going to be giving you narratives about people with eating disorders. 
@@ -62,6 +75,18 @@ def get_new_instruction_prompt():
     {'factors': '…', 
     'effect_details': ['…', '…'], or '…' 
     'effect_type'': 'helpful'/'harmful'/'neutral'/None}
+    """
+
+def get_small_few_shot_examples():
+   return """
+    Narrative: i abused laxatives/purging/starving and now every single time i eat i will get the hiccups, this can be anywhere from 2 minutes to 7 whole hours. its making recovery SO hard. the involuntary movements hurt my ribcage, it feels like i'm being punished for eating. i did it to myself. recovery feels useless now. pls don't get to the point i'm at because you will regret it and think back at every day of your life when you didn't have this. i can't play guitar properly anymore if i eat bc i will constantly hiccup against my guitar, my hiccups move my whole chest. it makes any form of exercise hard. people who don't know my hiccups are chronic laugh when i get them and try to scare them away as a joke etc. this is not the life you want to live. this is both a vent and a warning post. any supportive messages are welcome i'm going through a really rough time so please keep anything nasty to yourself
+
+    {'factors': 'Abusing laxatives, purging, and starving', 'effect_details': ['Developed chronic hiccups after eating, which causes pain and makes recovery difficult', 'Difficulty playing guitar and exercising due to the constant hiccups', 'Feeling punished for eating and feeling like recovery is useless'], 'effect_type': 'harmful'}
+
+    Narrative: I started Concerta for my ADHD, and taking it daily has changed my life. I can do the normal life things I need to do, but notably it is a HUGE help with my binging disorder. The medication really helps me to manage impulses surrounding binging. \n\nIt also completely erases my appetite, but I'm making the effort to have multiple healthy meals every day so I'm not accidentally starving myself. So far it's been one solid month and I've lost around 10lbs! That sounds like a lot, but my starting weight was 315lbs, so this needs to happen for my health and wellness. Looking forward to getting into the 200s again
+
+    {'factors': 'taking Concerta for ADHD', 'effect_details': ['helps manage impulses surrounding binging', 'reduces appetite', 'lost around 10lbs in one month', 'making the effort to have multiple healthy meals every day'], 'effect_type': 'helpful'}
+
     """
 
 def get_few_shot_examples():
@@ -148,14 +173,36 @@ def apply_chatgpt(row, prompt, include_examples, n = 5):
     narrative = row['selftext']
     max_retries = 2
     first_time_fail = False
+    
+    num_tokens_narrative = num_tokens_from_string(narrative, "cl100k_base")
+
     if include_examples:
-        response = openai.ChatCompletion.create(
+        narrative_plus_instruct = num_tokens_narrative + num_tokens_instructions
+        if (narrative_plus_instruct + num_tokens_few_shot) < 4080:
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                n = n,
+                messages=[
+                        {"role": "user", "content":prompt},
+                        {"role": "user", "content":get_few_shot_examples()},
+                        {"role": "user", "content": "Narrative: " + narrative}])
+        elif (narrative_plus_instruct + num_tokens_few_shot_small) < 4080:
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                n = n,
+                messages=[
+                        {"role": "user", "content":prompt},
+                        {"role": "user", "content":get_small_few_shot_examples()},
+                        {"role": "user", "content": "Narrative: " + narrative}])
+        elif narrative_plus_instruct < 4080:
+            response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             n = n,
             messages=[
                     {"role": "user", "content":prompt},
-                    {"role": "user", "content":get_few_shot_examples()},
-                    {"role": "user", "content": "Narrative: " + narrative}])
+                    {"role": "user", "content": narrative},])
+        else:
+            result = {}
     else:
         response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",

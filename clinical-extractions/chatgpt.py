@@ -8,11 +8,11 @@ import os
 tqdm.pandas()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 narrative_df = pd.read_csv('narrative_detection/narrative_posts_by_trained_classification.csv')
-narrative_df = narrative_df.head(200)
+narrative_df = narrative_df.head(500)
 
 results_file = "clinical-extractions/results/prompt_fewshot.csv"
 if os.path.exists(results_file):
-    completed_df = pd.read_csv(results_file)
+    completed_df = pd.read_csv(results_file, index_col=0)
     start_row = len(completed_df)
     print(f'Starting at row {start_row}')
 else:
