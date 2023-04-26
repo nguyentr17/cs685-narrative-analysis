@@ -3,6 +3,7 @@ import os
 import pdb
 import time
 import tiktoken
+import logging
 
 encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
 
@@ -243,3 +244,54 @@ def get_unique_filename(base_path = "clinical-extractions/results", base_filenam
         counter += 1
 
 
+def get_trigger_instruction_prompt():
+    return """
+    I am going to be giving you narratives about people with eating disorders.
+    Can you help me identify what made their eating disorder worse?
+    
+    'perspective': Identify the person the narrative is about. If it's a first-person narrative, the person would be the writer. If it's unknown, say it's the writer. If it's second or third person, please identify that person.
+    'gender': Identify gender of the writer. None if not mentioned
+    'duration': Identify how many years or months the writer has suffered from eating disorder. None if not mentioned.
+    'age': Identify age of the writer if mentioned. If it is not mentioned, write None.
+    'has_trigger': Ask whether the post mentions that the person is getting worse and why. Answer only 'yes' or 'no'.
+    'trigger': Identify the triggers that makes the writer's eating disorder get worse. Put None if 'has_trigger' is 'no'.
+    'trigger_type': Identify the trigger types. Put None if 'has_trigger' is 'no'. Limit to the following types:
+    1. 'external': if the trigger comes from someone else or something else in the environment.
+    2. 'internal': if the trigger comes from personal desire or emotional state.
+    
+    If the narrative isn't related to an eating disorder, please return None for all fields.
+    
+    IMPORTANT: ONLY SEND ME THE FORMATTED ANSWER. DO NOT GENERATE EXPLANATIONS.
+    FORMATTED ANSWER:
+    {
+    'perspective': '[PERSON IDENTIFIED HERE]',
+    'gender': 'female'/'male'/None,
+    'age': '…'/None,
+    'duration': '…'/None,
+    'has_trigger': 'yes'/'no',
+    'trigger': ['…', '…'], or '…',
+    'trigger_type': 'internal'/'external'/None
+    }
+    """
+
+def set_logging(logger, *, log_file: str, log_level=logging.INFO) -> logging:
+    """
+    Make sure output is logged to both file and console
+    :param logger:
+    :param log_file:
+    :param log_level:
+    :return:
+    """
+    logger.setLevel(logging.INFO)
+    formatter = logging.Formatter(
+        "%(levelname)s <%(thread)d> [%(asctime)s] %(name)s <%(filename)s:%(lineno)d> %(message)s"
+    )
+    file_handler = logging.FileHandler(filename=log_file)
+    file_handler.setLevel(log_level)
+    file_handler.setFormatter(formatter)
+    log_handler = logging.StreamHandler()
+    log_handler.setLevel(log_level)
+    log_handler.setFormatter(formatter)
+    logger.addHandler(log_handler)
+    logger.addHandler(file_handler)
+    return logger
