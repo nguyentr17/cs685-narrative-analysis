@@ -11,14 +11,16 @@ num_tokens_few_shot = 1305
 num_tokens_instructions = 673
 num_tokens_few_shot_small = 492
 
+
 def num_tokens_from_string(string: str, encoding_name: str) -> int:
     """Returns the number of tokens in a text string."""
     encoding = tiktoken.get_encoding(encoding_name)
     num_tokens = len(encoding.encode(string))
     return num_tokens
 
+
 def get_old_instruction_prompt():
-  return """I am going to be giving you narratives about people with eating disorders. 
+    return """I am going to be giving you narratives about people with eating disorders. 
     Can you help me identify what helped the user with their eating disorder or what made their eating disorder worse?
 
     I want you to first identify the person that they are writing about. If it's a first person narrative then the person would be the writer,
@@ -43,6 +45,7 @@ def get_old_instruction_prompt():
     'effect': '[EXPLAIN THE EFFECT THE TREATMENT HAS HAD ON THE WRITER]', 
     'outcome': '[WHETHER THE TREATMENT WAS HELPFUL OR HARMFUL]'}
     """
+
 
 def get_new_instruction_prompt():
     return """
@@ -78,8 +81,9 @@ def get_new_instruction_prompt():
     'effect_type'': 'helpful'/'harmful'/'neutral'/None}
     """
 
+
 def get_small_few_shot_examples():
-   return """
+    return """
     Narrative: i abused laxatives/purging/starving and now every single time i eat i will get the hiccups, this can be anywhere from 2 minutes to 7 whole hours. its making recovery SO hard. the involuntary movements hurt my ribcage, it feels like i'm being punished for eating. i did it to myself. recovery feels useless now. pls don't get to the point i'm at because you will regret it and think back at every day of your life when you didn't have this. i can't play guitar properly anymore if i eat bc i will constantly hiccup against my guitar, my hiccups move my whole chest. it makes any form of exercise hard. people who don't know my hiccups are chronic laugh when i get them and try to scare them away as a joke etc. this is not the life you want to live. this is both a vent and a warning post. any supportive messages are welcome i'm going through a really rough time so please keep anything nasty to yourself
 
     {'factors': 'Abusing laxatives, purging, and starving', 'effect_details': ['Developed chronic hiccups after eating, which causes pain and makes recovery difficult', 'Difficulty playing guitar and exercising due to the constant hiccups', 'Feeling punished for eating and feeling like recovery is useless'], 'effect_type': 'harmful'}
@@ -89,6 +93,7 @@ def get_small_few_shot_examples():
     {'factors': 'taking Concerta for ADHD', 'effect_details': ['helps manage impulses surrounding binging', 'reduces appetite', 'lost around 10lbs in one month', 'making the effort to have multiple healthy meals every day'], 'effect_type': 'helpful'}
 
     """
+
 
 def get_few_shot_examples():
     return """
@@ -127,7 +132,7 @@ def get_few_shot_examples():
 #         retries = 0
 #         while retries < max_retries:
 #             try:
-#                 if first_time_fail: 
+#                 if first_time_fail:
 #                     row[f'factors_{i}'] = None
 #                     row[f'effect_type_{i}'] = None
 #                     row[f'effect_details_{i}'] = None
@@ -166,11 +171,13 @@ def get_few_shot_examples():
 #                     first_time_fail = True
 #     return row
 
+
 def has_correct_keys(dictionary):
     keys_to_check = ['factors', 'effect_type', 'effect_details']
     return all(key in dictionary for key in keys_to_check)
 
-def apply_chatgpt(row, prompt, include_examples, n = 6):
+
+def apply_chatgpt(row, prompt, include_examples, n=7, temperature=0.6):
     narrative = row['selftext']
     num_tokens_narrative = num_tokens_from_string(narrative, "cl100k_base")
 
@@ -179,35 +186,39 @@ def apply_chatgpt(row, prompt, include_examples, n = 6):
         if (narrative_plus_instruct + num_tokens_few_shot) < 4080:
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
-                n = n,
+                n=n,
+                temperature=temperature,
                 messages=[
-                        {"role": "user", "content":prompt},
-                        {"role": "user", "content":get_few_shot_examples()},
-                        {"role": "user", "content": "Narrative: " + narrative}])
+                    {"role": "user", "content": prompt},
+                    {"role": "user", "content": get_few_shot_examples()},
+                    {"role": "user", "content": "Narrative: " + narrative}])
         elif (narrative_plus_instruct + num_tokens_few_shot_small) < 4080:
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
-                n = n,
+                n=n,
+                temperature=temperature,
                 messages=[
-                        {"role": "user", "content":prompt},
-                        {"role": "user", "content":get_small_few_shot_examples()},
-                        {"role": "user", "content": "Narrative: " + narrative}])
+                    {"role": "user", "content": prompt},
+                    {"role": "user", "content": get_small_few_shot_examples()},
+                    {"role": "user", "content": "Narrative: " + narrative}])
         elif narrative_plus_instruct < 4080:
             response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            n = n,
-            messages=[
-                    {"role": "user", "content":prompt},
-                    {"role": "user", "content": narrative},])
+                model="gpt-3.5-turbo",
+                n=n,
+                temperature=temperature,
+                messages=[
+                    {"role": "user", "content": prompt},
+                    {"role": "user", "content": narrative}, ])
         else:
             result = {}
     else:
         response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        n = n,
-        messages=[
-                {"role": "user", "content":prompt},
-                {"role": "user", "content": narrative},])
+            model="gpt-3.5-turbo",
+            n=n,
+            temperature=temperature,
+            messages=[
+                {"role": "user", "content": prompt},
+                {"role": "user", "content": narrative}, ])
     count = 0
     # pdb.set_trace()
     for i in range(n):
@@ -217,7 +228,8 @@ def apply_chatgpt(row, prompt, include_examples, n = 6):
             if has_correct_keys(result):
                 row[f'factors_{count}'] = result['factors']
                 row[f'effect_type_{count}'] = result['effect_type']
-                row[f'effect_details_{count}'] = result['effect_details']
+                row[f'effect_details_{count}'] = ', '.join(result['effect_details']) if isinstance(
+                    result['effect_details'], list) else result['effect_details']
             # print(result)
             count += 1
         except Exception as e:
@@ -230,11 +242,11 @@ def apply_chatgpt(row, prompt, include_examples, n = 6):
         row[f'effect_type_{count}'] = None
         row[f'effect_details_{count}'] = None
         count += 1
-    time.sleep(20)
+    time.sleep(21)
     return row
 
 
-def get_unique_filename(base_path = "clinical-extractions/results", base_filename = "prompt_fewshot", extension = ".csv"):
+def get_unique_filename(base_path="clinical-extractions/results", base_filename="prompt_fewshot", extension=".csv"):
     counter = 1
     while True:
         new_filename = f"{base_filename}{counter}{extension}"
@@ -273,6 +285,7 @@ def get_trigger_instruction_prompt():
     'trigger_type': 'internal'/'external'/None
     }
     """
+
 
 def set_logging(logger, *, log_file: str, log_level=logging.INFO) -> logging:
     """
