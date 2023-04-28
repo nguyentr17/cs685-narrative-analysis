@@ -4,3 +4,5 @@ matplotlib
 little_mallet_wrapper
 scipy
 seaborn
+tiktoken
+openai

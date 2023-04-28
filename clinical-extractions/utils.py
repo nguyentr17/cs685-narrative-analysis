@@ -171,7 +171,14 @@ def get_few_shot_examples():
 #                     first_time_fail = True
 #     return row
 
-
+def pick_token_combination(narrative_plus_instruct):
+    if (narrative_plus_instruct + num_tokens_few_shot) < 4080:
+        return narrative_plus_instruct + num_tokens_few_shot
+    elif (narrative_plus_instruct + num_tokens_few_shot_small) < 4080:
+        return narrative_plus_instruct + num_tokens_few_shot_small
+    else:
+        return narrative_plus_instruct if narrative_plus_instruct < 4080 else None
+    
 def has_correct_keys(dictionary):
     keys_to_check = ['factors', 'effect_type', 'effect_details']
     return all(key in dictionary for key in keys_to_check)
@@ -242,7 +249,7 @@ def apply_chatgpt(row, prompt, include_examples, n=7, temperature=0.6):
         row[f'effect_type_{count}'] = None
         row[f'effect_details_{count}'] = None
         count += 1
-    time.sleep(21)
+    time.sleep(20)
     return row
 
 
