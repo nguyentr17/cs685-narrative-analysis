@@ -1,3 +1,5 @@
+import json
+
 import pandas as pd
 from utils import *
 from tqdm import tqdm
@@ -68,7 +70,7 @@ def apply_chatgpt_extract_trigger(row, prompt, include_examples, n = 6):
             model="gpt-3.5-turbo",
             n=n,
             messages=[
-                {"role": "user", "content":prompt},
+                {"role": "user", "content": prompt},
                 {"role": "user", "content": narrative},])
     count = 0
     # pdb.set_trace()
@@ -83,7 +85,7 @@ def apply_chatgpt_extract_trigger(row, prompt, include_examples, n = 6):
             # print(result)
             count += 1
         except Exception as e:
-            print(e)
+            LOGGER.info(F"Error: {e}")
         if count == 3:
             time.sleep(20)
             return row
@@ -100,7 +102,8 @@ if __name__ == "__main__":
     tqdm.pandas()
     args = parser.parse_args()
     openai.api_key = args.openai_key
-    narrative_df = pd.read_csv('../narrative_detection/annotated_narrative_posts_by_trained_classification.csv')
+    #narrative_df = pd.read_csv('../narrative_detection/annotated_narrative_posts_by_trained_classification.csv')
+    narrative_df = pd.read_csv("../narrative_detection/narrative_post_with_topic_model.csv")
     if args.experiment:
         narrative_df = narrative_df[narrative_df["selected_for_experiment"] == 1]
     if args.max_num_posts is not None:
@@ -117,6 +120,9 @@ if __name__ == "__main__":
         "include_example": args.include_example,
         "version": str(time_now)
     }
+    with open("./prompt_tracking.ndjson", "w") as f:
+        json.dump(prompts, f)
+        f.write("\n")
     if args.experiment:
         results_file = f"./results/experiment_trigger_extraction_result_{str(time_now)}.csv"
     else:
