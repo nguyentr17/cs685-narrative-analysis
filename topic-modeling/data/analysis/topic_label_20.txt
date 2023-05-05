@@ -1,0 +1,20 @@
+0_eating_behavior (good)_purging binge purge binging stop bulimia b/p day cycle bad
+1_bodyParts (good)_xNUMb hair would teeth dentist make mouth abs use email
+2_family (good)_mom family fat dad sister said parents told comments always
+3_feeling (moderate)_like feel even want know much get hate fucking never
+4_work (bad)_work get want time going need life back job hard
+5_feeling (moderate)_like feel really also know lot think still idk maybe
+6_groceryShopping (moderate)_food mad buy money cookies store candy buying kitchen fucking
+7_feeling (moderate)_know really get want eating think help tell disorder also
+8_eat(good)_eat eating food feel like meal even day hungry want
+9_community (moderate)_people post group recovery made diet disordered certain looking posts
+10_weight (good)_weight gain lose gained eating back underweight bmi want NUM
+11_appearance (good)_body look weight see clothes skinny fat looked face fit
+12_food (good)_foods ate NUM eat food sugar chocolate cream ice cheese
+13_life (bad)_life eating self disorder things every people anxiety way mental
+14_discomfort (moderate)_never heart pain sick enough blood sleep night take water
+15_timeShort (moderate)_today didn felt got day going last back went time
+16_formalTreatment (good)_treatment inpatient hospital therapist NUM program get appointment doctor medical
+17_recovery (bad)_recovery body anyone really still much long time recover would
+18_timeLong (moderate)_NUM years since time year last months started ago even
+19_calories (bad)_NUM day calories eat days also exercise every gym week

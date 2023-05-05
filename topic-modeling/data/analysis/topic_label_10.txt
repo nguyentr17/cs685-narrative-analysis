@@ -1,0 +1,10 @@
+0_food (good)_NUM food eat ate foods today like sugar chocolate dinner
+1_formal_treatment (good)_doctor blood take heart symptoms disorder anyone laxatives taking severe
+2_weight (good)_NUM weight gain back lose lost months eating years still
+3_eat (strong)_eat eating food day hungry meal binge calories meals like
+4_treatment (moderate)_NUM treatment get work need therapist year last job help
+5_time (moderate)_NUM day today purging last purge time days got back
+6_appearance (good)_look body like weight fat see hate clothes skinny face
+7_recovery (moderate)_recovery life never years body people things one enough long
+8_feeling (moderate)_like feel know want really even get much think eating
+9_conversation (moderate)_told said people mom didn would one made never got
