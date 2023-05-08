@@ -1,4 +1,4 @@
-0_eating_behavior (good)_purging binge purge binging stop bulimia b/p day cycle bad
+0_eatingBehavior (good)_purging binge purge binging stop bulimia b/p day cycle bad
 1_bodyParts (good)_xNUMb hair would teeth dentist make mouth abs use email
 2_family (good)_mom family fat dad sister said parents told comments always
 3_feeling (moderate)_like feel even want know much get hate fucking never
