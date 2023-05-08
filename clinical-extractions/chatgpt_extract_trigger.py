@@ -1,5 +1,6 @@
 import json
 
+import openai.error
 import pandas as pd
 from utils import *
 from tqdm import tqdm
@@ -24,6 +25,9 @@ parser.add_argument(
 )
 parser.add_argument(
     '--max_num_posts', type=int, required=False
+)
+parser.add_argument(
+    '--result_file', type=str, required=True
 )
 parser.add_argument(
     '--include_example', action="store_true", default=False
@@ -66,12 +70,21 @@ def apply_chatgpt_extract_trigger(row, prompt, include_examples, n = 6):
         else:
             result = {}
     else:
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            n=n,
-            messages=[
-                {"role": "user", "content": prompt},
-                {"role": "user", "content": narrative},])
+        try:
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                n=n,
+                messages=[
+                    {"role": "user", "content": prompt},
+                    {"role": "user", "content": narrative},])
+        except openai.error.RateLimitError as e:
+            time.sleep(30)
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                n=n,
+                messages=[
+                    {"role": "user", "content": prompt},
+                    {"role": "user", "content": narrative},])
     count = 0
     # pdb.set_trace()
     for i in range(n):
@@ -109,7 +122,7 @@ if __name__ == "__main__":
     if args.max_num_posts is not None:
         narrative_df = narrative_df.head(args.max_num_posts)
 
-    LOGGER.info(f"Number of narratives to process: {len(narrative_df)}")
+
 
     prompt_tracking_file = "./results/prompt_tracking_file.ndjson"
     current_prompt = get_trigger_instruction_prompt()
@@ -123,24 +136,22 @@ if __name__ == "__main__":
     with open("./prompt_tracking.ndjson", "w") as f:
         json.dump(prompts, f)
         f.write("\n")
-    if args.experiment:
-        results_file = f"./results/experiment_trigger_extraction_result_{str(time_now)}.csv"
-    else:
-        results_file = f"./results/trigger_extraction_result_{str(time_now)}.csv"
+    results_file = args.result_file
     if os.path.exists(results_file):
         completed_df = pd.read_csv(results_file)
-        start_row = len(completed_df)
-        print(f'Starting at row {start_row}')
+        completed_ids = list(completed_df["id"].unique())
     else:
         completed_df = pd.DataFrame()
-        start_row = 0
+        completed_ids = []
 
     chunk_size = 5
+    incomplete_df = narrative_df[~narrative_df["id"].isin(completed_ids)].reset_index()
+    total_rows = len(incomplete_df)
 
-    total_rows = len(narrative_df)
+    LOGGER.info(f"Number of narratives to process: {len(incomplete_df)} / {len(narrative_df)}")
 
-    for i in range(start_row, total_rows, chunk_size):
-        chunk_df = narrative_df.iloc[i:i+chunk_size]
+    for i in range(0, total_rows, chunk_size):
+        chunk_df = incomplete_df.iloc[i:i+chunk_size]
         chunk_df = chunk_df.progress_apply(apply_chatgpt_extract_trigger, axis=1, prompt=current_prompt, include_examples=args.include_example)
         completed_df = pd.concat([completed_df, chunk_df], ignore_index=True)
         completed_df.to_csv(results_file, index=False)
