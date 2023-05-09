@@ -9,13 +9,13 @@ import wandb
 # tqdm.pandas()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 narrative_df = pd.read_csv(
-    'narrative_detection/narrative_posts_by_trained_classification.csv', index_col=0).reset_index(drop=True)
+    'clinical-extractions/data/concatenated_finished_unfinished_with_topics.csv', index_col=0).reset_index(drop=True)
 # narrative_df = narrative_df.head(1000)
 
 # pdb.set_trace()
 run = wandb.init(project="cs685-narrative-extraction", entity='acampbell1798')
 
-results_file = "clinical-extractions/results/prompt_fewshot.csv"
+results_file = "clinical-extractions/results/final_prompt_fewshot_with_topics.csv"
 if os.path.exists(results_file):
     completed_df = pd.read_csv(results_file, index_col=0)
     start_row = len(completed_df)
