@@ -1,0 +1,2157 @@
+{
+    "rest": [
+        "{'rest': {'agency': 'agency_equal', 'power': nan}}",
+        "{'rest': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'rest': {'agency': 'agency_equal', 'power': nan}}"
+    ],
+    "tag": [
+        "{'tag': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'tag': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'tag': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "hail": [
+        "{'hail': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{\"hail\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'hail': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "clatter": [
+        "{'clatter': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'clatter': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'clatter': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "splinter": [
+        "{'splinter': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'splinter': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'splinter': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "authorize": [
+        "{'authorize': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'authorize': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'authorize': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "shout": [
+        "{'shout': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'shout': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'shout': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "shriek": [
+        "{'shriek': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'shriek': {'agency': 'agency_pos', 'power': nan}}",
+        "{'shriek': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "swim": [
+        "{'swim': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'swim': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'swim': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "extend": [
+        "{'extend': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\"extend\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}",
+        "{'extend': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "capture": [
+        "{'capture': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'capture': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'capture': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "button": [
+        "{'button': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'button': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'button': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "eject": [
+        "{'eject': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'eject': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'eject': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "work": [
+        "{'work': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'work': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'work': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "admit": [
+        "{'admit': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{'admit': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'admit': {'agency': 'agency_neg', 'power': 'power_agent'}}"
+    ],
+    "love": [
+        "{'love': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'love': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'love': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "linger": [
+        "{'linger': {'agency': 'agency_neg', 'power': nan}}",
+        "{'linger': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'linger': {'agency': 'agency_neg', 'power': 'power_agent'}}"
+    ],
+    "drum": [
+        "{'drum': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'drum': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'drum': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "twist": [
+        "{'twist': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'twist': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'twist': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "bath": [
+        "{'bath': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bath': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bath': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "sulk": [
+        "{'sulk': {'agency': 'agency_neg', 'power': nan}}",
+        "{'sulk': {'agency': 'agency_neg', 'power': nan}}",
+        "{'sulk': {'agency': 'agency_neg', 'power': nan}}"
+    ],
+    "operate": [
+        "{'operate': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'operate': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'operate': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "cut": [
+        "{'cut': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'cut': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'cut': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "tow": [
+        "{'tow': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'tow': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'tow': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "cheer": [
+        "{'cheer': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'cheer': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'cheer': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "whimper": [
+        "{'whimper': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'whimper': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{\"whimper\": {\"agency\": \"agency_neg\", \"power\": \"nan\"}}"
+    ],
+    "size": [
+        "{'size': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'size': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'size': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "scrap": [
+        "{'scrap': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'scrap': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'scrap': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "submerge": [
+        "{'submerge': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'submerge': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'submerge': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "clarify": [
+        "{'clarify': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'clarify': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'clarify': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "manipulate": [
+        "{'manipulate': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'manipulate': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'manipulate': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "claw": [
+        "{'claw': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'claw': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'claw': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "tune": [
+        "{'tune': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'tune': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'tune': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "hack": [
+        "{'hack': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'hack': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'hack': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "nose": [
+        "{'nose': {'agency': 'agency_equal', 'power': nan}}",
+        "{'nose': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'nose': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "creep": [
+        "{'creep': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'creep': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'creep': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "contest": [
+        "{'contest': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'contest': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'contest': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "meet": [
+        "{'meet': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'meet': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'meet': {'agency': 'agency_equal', 'power': 'power_equal'}}"
+    ],
+    "hop": [
+        "{'hop': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'hop': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'hop': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "huff": [
+        "{'huff': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'huff': {'agency': 'agency_neg', 'power': nan}}",
+        "{'huff': {'agency': 'agency_neg', 'power': 'power_agent'}}"
+    ],
+    "claim": [
+        "{'claim': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'claim': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'claim': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "round": [
+        "{'round': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'round': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'round': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "blame": [
+        "{'blame': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'blame': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'blame': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "soothe": [
+        "{\n  \"soothe\": {\n    \"agency\": \"agency_pos\",\n    \"power\": \"power_equal\"\n  }\n}",
+        "{'soothe': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'soothe': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "giggle": [
+        "{'giggle': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'giggle': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'giggle': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "fix": [
+        "{'fix': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'fix': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'fix': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "relates to": [
+        "{'relates to': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'relates to': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{\"relates to\": {\"agency\": \"agency_equal\", \"power\": \"nan\"}}"
+    ],
+    "devour": [
+        "{'devour': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'devour': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'devour': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "complain": [
+        "{'complain': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'complain': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'complain': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "bash": [
+        "{'bash': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bash': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bash': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "snore": [
+        "{'snore': {'agency': 'agency_equal', 'power': nan}}",
+        "{'snore': {'agency': 'agency_equal', 'power': nan}}",
+        "{'snore': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "respond": [
+        "{'respond': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'respond': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'respond': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "exploit": [
+        "{'exploit': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'exploit': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'exploit': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "narrow": [
+        "{'narrow': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'narrow': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"narrow\": {\"agency\": \"agency_neg\", \"power\": \"power_equal\"}}"
+    ],
+    "avoid": [
+        "{'avoid': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'avoid': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'avoid': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "blurt": [
+        "{'blurt': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'blurt': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'blurt': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "motivate": [
+        "{'motivate': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'motivate': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'motivate': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "process": [
+        "{'process': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'process': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'process': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "assign": [
+        "{'assign': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'assign': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'assign': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "recruit": [
+        "{'recruit': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'recruit': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'recruit': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "mutilate": [
+        "{'mutilate': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'mutilate': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'mutilate': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "stash": [
+        "{'stash': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'stash': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'stash': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "cower": [
+        "{'cower': {'agency': 'agency_neg', 'power': nan}}",
+        "{'cower': {'agency': 'agency_neg', 'power': nan}}",
+        "{\"cower\": {\"agency\": \"agency_neg\", \"power\": \"power_agent\"}}"
+    ],
+    "wipe": [
+        "{'wipe': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'wipe': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'wipe': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "trip": [
+        "{'trip': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'trip': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'trip': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "freeze": [
+        "{'freeze': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'freeze': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'freeze': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "refer": [
+        "{'refer': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'refer': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'refer': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "echo": [
+        "{'echo': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'echo': {'agency': nan, 'power': 'power_theme'}}",
+        "{'echo': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "exhale": [
+        "{'exhale': {'agency': 'agency_equal', 'power': 'power_agent'}}",
+        "{'exhale': {'agency': 'agency_equal', 'power': 'power_equal'}}",
+        "{'exhale': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "mumble": [
+        "{'mumble': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'mumble': {'agency': 'agency_equal', 'power': 'power_equal'}}",
+        "{'mumble': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "shoulder": [
+        "{'shoulder': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shoulder': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shoulder': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "mill": [
+        "{'mill': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'mill': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'mill': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "frisk": [
+        "{'frisk': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'frisk': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'frisk': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "swerve": [
+        "{'swerve': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'swerve': {'agency': 'agency_pos', 'power': nan}}",
+        "{'swerve': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "erase": [
+        "{'erase': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'erase': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'erase': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "dispatch": [
+        "{'dispatch': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'dispatch': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'dispatch': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "shower": [
+        "{'shower': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shower': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shower': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "waste": [
+        "{'waste': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'waste': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'waste': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "consume": [
+        "{'consume': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'consume': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'consume': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "appeals to": [
+        "{'appeals to': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'appeals to': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'appeals to': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "progress": [
+        "{'progress': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'progress': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'progress': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "concentrates on": [
+        "{'concentrates on': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'concentrates on': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'concentrates on': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "clothe": [
+        "{'clothe': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'clothe': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'clothe': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "preside": [
+        "{'preside': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'preside': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'preside': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "revolves around": [
+        "{'revolves around': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'revolves around': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'revolves around': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "pass": [
+        "{'pass': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'pass': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'pass': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "destroy": [
+        "{'destroy': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'destroy': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'destroy': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "divide": [
+        "{'divide': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'divide': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'divide': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "yank": [
+        "{'yank': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'yank': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'yank': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "deepen": [
+        "{'deepen': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'deepen': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'deepen': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "subtitle": [
+        "{'subtitle': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'subtitle': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'subtitle': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "preach": [
+        "{'preach': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'preach': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'preach': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "disappoint": [
+        "{'disappoint': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'disappoint': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'disappoint': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "invoke": [
+        "{'invoke': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'invoke': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'invoke': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "assure": [
+        "{'assure': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'assure': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'assure': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "spell": [
+        "{'spell': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'spell': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'spell': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "clutch": [
+        "{'clutch': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'clutch': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'clutch': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "steel": [
+        "{\"steel\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'steel': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'steel': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "build": [
+        "{'build': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'build': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'build': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "dog": [
+        "{\"dog\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'dog': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'dog': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "seduce": [
+        "{'seduce': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'seduce': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'seduce': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "search": [
+        "{'search': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'search': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'search': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "snip": [
+        "{'snip': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'snip': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'snip': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "drip": [
+        "{'drip': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'drip': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'drip': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "calm": [
+        "{'calm': {'agency': 'agency_neg', 'power': 'power_equal'}}",
+        "{'calm': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'calm': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "shell": [
+        "{'shell': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shell': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shell': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "stitch": [
+        "{'stitch': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'stitch': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'stitch': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "please": [
+        "{'please': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'please': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'please': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "rear": [
+        "{'rear': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'rear': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'rear': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "wake": [
+        "{'wake': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'wake': {'agency': 'agency_pos', 'power': nan}}",
+        "{'wake': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "overtake": [
+        "{'overtake': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'overtake': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'overtake': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "give": [
+        "{'give': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'give': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'give': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "wriggle": [
+        "{\"wriggle\": {\"agency\": \"agency_pos\", \"power\": \"power_equal\"}}",
+        "{'wriggle': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'wriggle': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "strap": [
+        "{'strap': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'strap': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'strap': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "saw": [
+        "{'saw': {'agency': 'agency_neg', 'power': 'power_equal'}}",
+        "{'saw': {'agency': 'agency_neg', 'power': 'power_equal'}}",
+        "{'saw': {'agency': 'agency_neg', 'power': 'power_equal'}}"
+    ],
+    "retire": [
+        "{'retire': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'retire': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'retire': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "flank": [
+        "{'flank': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'flank': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'flank': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "discover": [
+        "{'discover': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'discover': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'discover': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "apologizes to": [
+        "{\"apologizes to\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}",
+        "{'apologizes to': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'apologizes to': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "paint": [
+        "{'paint': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'paint': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'paint': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "decorate": [
+        "{'decorate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'decorate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'decorate': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "moan": [
+        "{'moan': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'moan': {'agency': 'agency_neg', 'power': 'nan'}}",
+        "{'moan': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "rejoin": [
+        "{'rejoin': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'rejoin': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'rejoin': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "boot": [
+        "{'boot': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'boot': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'boot': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "snow": [
+        "{'snow': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'snow': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'snow': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "listen": [
+        "{'listen': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'listen': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'listen': {'agency': 'agency_neg', 'power': 'power_theme'}}"
+    ],
+    "precede": [
+        "{'precede': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'precede': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\"precede\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}"
+    ],
+    "phone": [
+        "{'phone': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'phone': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'phone': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "inflict": [
+        "{'inflict': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'inflict': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'inflict': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "devote": [
+        "{\"devote\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}",
+        "{'devote': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'devote': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "grasp": [
+        "{'grasp': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\"grasp\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}",
+        "{'grasp': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "choose": [
+        "{'choose': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'choose': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'choose': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "heal": [
+        "{'heal': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'heal': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'heal': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "sell": [
+        "{'sell': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'sell': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'sell': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "hustle": [
+        "{'hustle': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'hustle': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'hustle': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "dial": [
+        "{'dial': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'dial': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'dial': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "rip": [
+        "{'rip': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'rip': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'rip': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "hitch": [
+        "{'hitch': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'hitch': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'hitch': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "bank": [
+        "{'bank': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'bank': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bank': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "leave": [
+        "{'leave': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'leave': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'leave': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "develop": [
+        "{'develop': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\n    \"develop\": {\n        \"agency\": \"agency_pos\",\n        \"power\": \"power_agent\"\n    }\n}",
+        "{'develop': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "correct": [
+        "{'correct': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'correct': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'correct': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "shadow": [
+        "{'shadow': {'agency': 'agency_equal', 'power': 'power_equal'}}",
+        "{'shadow': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'shadow': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "wrap": [
+        "{'wrap': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'wrap': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'wrap': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "allege": [
+        "{'allege': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'allege': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'allege': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "roll": [
+        "{'roll': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'roll': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'roll': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "stabilize": [
+        "{'stabilize': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'stabilize': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'stabilize': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "overlap": [
+        "{'overlap': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'overlap': {'agency': 'agency_equal', 'power': 'power_equal'}}",
+        "{'overlap': {'agency': 'agency_equal', 'power': 'power_equal'}}"
+    ],
+    "deliver": [
+        "{'deliver': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'deliver': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'deliver': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "unleash": [
+        "{'unleash': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'unleash': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'unleash': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "slosh": [
+        "{'slosh': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'slosh': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'slosh': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "drift": [
+        "{'drift': {'agency': 'agency_neg', 'power': 'power_equal'}}",
+        "{'drift': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'drift': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "magnify": [
+        "{'magnify': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'magnify': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\n    \"magnify\": {\n        \"agency\": \"agency_pos\",\n        \"power\": \"power_theme\"\n    }\n}"
+    ],
+    "deem": [
+        "{'deem': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'deem': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'deem': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "savor": [
+        "{'savor': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'savor':{'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'savor': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "relieve": [
+        "{'relieve': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'relieve': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'relieve': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "bulge": [
+        "{'bulge': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'bulge': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'bulge': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "caress": [
+        "{'caress': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'caress': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'caress': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "collides with": [
+        "{'collides with': {'agency': 'agency_equal', 'power': 'power_equal'}}",
+        "{\"collides with\": {\"agency\": \"agency_equal\", \"power\": \"nan\"}}",
+        "{'collides with': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "spar": [
+        "{'spar': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'spar': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'spar': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "report": [
+        "{'report': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'report': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'report': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "state": [
+        "{'state': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'state': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'state': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "bob": [
+        "{'bob': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'bob': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'bob': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "regain": [
+        "{'regain': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'regain': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'regain': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "cough": [
+        "{'cough': {'agency': 'agency_pos', 'power': nan}}",
+        "{'cough': {'agency': 'agency_pos', 'power': nan}}",
+        "{'cough': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "offend": [
+        "{'offend': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'offend': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'offend': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "bundle": [
+        "{'bundle': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'bundle': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'bundle': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "mutter": [
+        "{'mutter': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'mutter': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'mutter': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "swell": [
+        "{'swell': {'agency': 'agency_pos', 'power': nan}}",
+        "{'swell': {'agency': 'agency_pos', 'power': nan}}",
+        "{'swell': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "labor": [
+        "{'labor': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'labor': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'labor': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "mat": [
+        "{'mat': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'mat': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'mat': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "empty": [
+        "{'empty': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'empty': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'empty': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "slow": [
+        "{'slow': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'slow': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'slow': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "stow": [
+        "{'stow': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'stow': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'stow': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "ship": [
+        "{'ship': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'ship': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'ship': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "organize": [
+        "{'organize': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'organize': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'organize': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "warrant": [
+        "{'warrant': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'warrant': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'warrant': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "store": [
+        "{'store': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'store': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'store': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "implore": [
+        "{'implore': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'implore': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'implore': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "groom": [
+        "{'groom': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'groom': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'groom': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "sing": [
+        "{'sing': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'sing': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'sing': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "grope": [
+        "{'grope': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'grope': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'grope': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "envision": [
+        "{'envision': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'envision': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'envision': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "bag": [
+        "{'bag': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"bag\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'bag': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "exist": [
+        "{'exist': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'exist': {'agency': 'agency_equal', 'power': nan}}",
+        "{'exist': {'agency': 'agency_equal', 'power': nan}}"
+    ],
+    "row": [
+        "{'row': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'row': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'row': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "confess": [
+        "{'confess': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'confess': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'confess': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "amuse": [
+        "{'amuse': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'amuse': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'amuse': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "disguise": [
+        "{'disguise': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'disguise': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'disguise': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "lap": [
+        "{'lap': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'lap': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'lap': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "thunder": [
+        "{'thunder': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'thunder': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'thunder': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "slaughter": [
+        "{'slaughter': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'slaughter': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'slaughter': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "span": [
+        "{'span': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'span': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'span': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "lick": [
+        "{'lick': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\"lick\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}",
+        "{'lick': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "purchase": [
+        "{'purchase': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'purchase': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'purchase': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "shock": [
+        "{'shock': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'shock': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'shock': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "inspire": [
+        "{'inspire': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'inspire': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'inspire': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "breathe": [
+        "{'breathe': {'agency': 'agency_equal', 'power': 'power_agent'}}",
+        "{'breathe': {'agency': 'agency_equal', 'power': 'power_agent'}}",
+        "{'breathe': {'agency': 'agency_equal', 'power': 'power_agent'}}"
+    ],
+    "charm": [
+        "{'charm': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'charm': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'charm': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "summon": [
+        "{'summon': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'summon': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'summon': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "relent": [
+        "{'relent': {'agency': 'agency_neg', 'power': nan}}",
+        "{'relent': {'agency': 'agency_neg', 'power': nan}}",
+        "{'relent': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "mock": [
+        "{'mock': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'mock': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{'mock': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "crank": [
+        "{\"crank\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'crank': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'crank': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "match": [
+        "{'match': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'match': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'match': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "turn": [
+        "{'turn': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'turn': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'turn': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "target": [
+        "{'target': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\"target\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}",
+        "{'target': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "suggest": [
+        "{'suggest': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\"suggest\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}",
+        "{'suggest': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "grieve": [
+        "{'grieve': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'grieve': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'grieve': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "agonizes over": [
+        "{'agonizes over': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'agonizes over': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\"agonizes over\": {\"agency\": \"agency_pos\", \"power\": \"nan\"}}"
+    ],
+    "dance": [
+        "{'dance': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'dance': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'dance': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "pet": [
+        "{'pet': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'pet': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'pet': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "harm": [
+        "{'harm': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'harm': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'harm': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "die": [
+        "{'die': {'agency': 'agency_neg', 'power': 'nan'}}",
+        "{'die': {'agency': 'agency_neg', 'power': 'power_equal'}}",
+        "{'die': {'agency': 'agency_neg', 'power': 'power_equal'}}"
+    ],
+    "deal": [
+        "{'deal': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'deal': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'deal': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "shovel": [
+        "{'shovel': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shovel': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shovel': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "corner": [
+        "{'corner': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'corner': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'corner': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "cast": [
+        "{'cast': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'cast': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'cast': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "relax": [
+        "{'relax': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'relax': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'relax': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "lower": [
+        "{'lower': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'lower': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'lower': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "rig": [
+        "{'rig': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'rig': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'rig': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "scar": [
+        "{'scar': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'scar': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'scar': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "appeal": [
+        "{'appeal': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'appeal': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'appeal': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "drown": [
+        "{'drown': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{'drown': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'drown': {'agency': 'agency_neg', 'power': 'power_theme'}}"
+    ],
+    "motions to": [
+        "{'motions to': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'motions to': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'motions to': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "compose": [
+        "{'compose': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'compose': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'compose': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "chokes on": [
+        "{'chokes on': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'chokes on': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'chokes on': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "crouch": [
+        "{'crouch': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'crouch': {'agency': 'agency_pos', 'power': nan}}",
+        "{'crouch': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "unwrap": [
+        "{'unwrap': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'unwrap': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'unwrap': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "sob": [
+        "{'sob': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{'sob': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{'sob': {'agency': 'agency_neg', 'power': 'power_theme'}}"
+    ],
+    "ditch": [
+        "{'ditch': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'ditch': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{\"ditch\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}"
+    ],
+    "snap": [
+        "{'snap': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'snap': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'snap': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "identify": [
+        "{'identify': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'identify': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'identify': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "figure": [
+        "{'figure': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'figure': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'figure': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "check": [
+        "{'check': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'check': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'check': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "shroud": [
+        "{'shroud': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shroud': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'shroud': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "digest": [
+        "{'digest': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'digest': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'digest': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "rank": [
+        "{\"rank\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}",
+        "{'rank': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'rank': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "cite": [
+        "{'cite': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'cite': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'cite': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "extract": [
+        "{'extract': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\"extract\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}",
+        "{'extract': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "rock": [
+        "{'rock': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'rock': {'agency': 'agency_equal', 'power': 'power_equal'}}",
+        "{'rock': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "teeter": [
+        "{'teeter': {'agency': 'agency_equal', 'power': nan}}",
+        "{'teeter': {'agency': 'agency_equal', 'power': nan}}",
+        "{'teeter': {'agency': 'agency_equal', 'power': nan}}"
+    ],
+    "stuff": [
+        "{'stuff': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'stuff': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'stuff': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "bust": [
+        "{'bust': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bust': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bust': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "assume": [
+        "{'assume': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'assume': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'assume': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "pee": [
+        "{\"pee\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'pee': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'pee': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "rotate": [
+        "{'rotate': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{\n  \"rotate\": {\n    \"agency\": \"agency_pos\",\n    \"power\": \"power_theme\"\n  }\n}",
+        "{'rotate': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "nudge": [
+        "{'nudge': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"nudge\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'nudge': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "dive": [
+        "{'dive': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'dive': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'dive': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "nod": [
+        "{'nod': {'agency': 'agency_pos', 'power': nan}}",
+        "{'nod': {'agency': 'agency_pos', 'power': nan}}",
+        "{'nod': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "terrify": [
+        "{'terrify': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"terrify\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'terrify': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "minimize": [
+        "{'minimize': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'minimize': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'minimize': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "recoil": [
+        "{'recoil': {'agency': 'agency_neg', 'power': nan}}",
+        "{'recoil': {'agency': 'agency_neg', 'power': nan}}",
+        "{'recoil': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "thaw": [
+        "{'thaw': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'thaw': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'thaw': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "coordinate": [
+        "{'coordinate': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'coordinate': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'coordinate': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "undo": [
+        "{'undo': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'undo': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'undo': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "bald": [
+        "{'bald': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{\n  \"bald\": {\n    \"agency\": \"agency_neg\",\n    \"power\": \"nan\"\n  }\n}",
+        "{'bald': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "speed": [
+        "{'speed': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'speed': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'speed': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "blush": [
+        "{'blush': {'agency': 'agency_pos', 'power': nan}}",
+        "{'blush': {'agency': 'agency_pos', 'power': nan}}",
+        "{'blush': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "defend": [
+        "{'defend': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'defend': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'defend': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "anticipate": [
+        "{'anticipate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'anticipate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'anticipate': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "film": [
+        "{'film': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'film': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'film': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "wrestle": [
+        "{'wrestle': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'wrestle': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'wrestle': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "escort": [
+        "{'escort': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'escort': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'escort': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "produce": [
+        "{'produce': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'produce': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'produce': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "string": [
+        "{'string': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'string': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'string': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "increase": [
+        "{'increase': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'increase': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'increase': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "waltz": [
+        "{'waltz': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'waltz': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'waltz': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "enjoy": [
+        "{'enjoy': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'enjoy': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'enjoy': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "torture": [
+        "{'torture': {'agency':'agency_pos', 'power':'power_agent'}}",
+        "{'torture': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'torture': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "toast": [
+        "{'toast': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"toast\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'toast': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "entertain": [
+        "{'entertain': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'entertain': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'entertain': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "trudge": [
+        "{'trudge': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'trudge': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'trudge': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "hunt": [
+        "{'hunt': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'hunt': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'hunt': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "breed": [
+        "{'breed': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'breed': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'breed': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "wince": [
+        "{'wince': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{'wince': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{'wince': {'agency': 'agency_neg', 'power': 'power_equal'}}"
+    ],
+    "retain": [
+        "{'retain': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'retain': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'retain': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "scramble": [
+        "{'scramble': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'scramble': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'scramble': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "thin": [
+        "{'thin': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'thin': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'thin': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "impale": [
+        "{'impale': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'impale': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'impale': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "ricochet": [
+        "{'ricochet': {'agency': 'agency_equal', 'power': nan}}",
+        "{'ricochet': {'agency': 'agency_equal', 'power': nan}}",
+        "{'ricochet': {'agency': 'agency_neg', 'power': 'power_theme'}}"
+    ],
+    "gasp": [
+        "{'gasp': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'gasp': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'gasp': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "pray": [
+        "{'pray': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'pray': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'pray': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "snarls at": [
+        "{'snarls at': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'snarls at': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{\"snarls at\": {\"agency\": \"agency_pos\", \"power\": \"power_theme\"}}"
+    ],
+    "break": [
+        "{'break': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'break': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'break': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "jut": [
+        "{'jut': {'agency': 'agency_neg', 'power': nan}}",
+        "{'jut': {'agency': 'agency_neg', 'power': nan}}",
+        "{'jut': {'agency': 'agency_neg', 'power': 'power_theme'}}"
+    ],
+    "rumble": [
+        "{'rumble': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'rumble': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'rumble': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "imply": [
+        "{'imply': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'imply': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'imply': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "brood": [
+        "{'brood': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'brood': {'agency': 'agency_pos', 'power': nan}}",
+        "{'brood': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "sip": [
+        "{'sip': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'sip': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'sip': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "burst": [
+        "{'burst': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'burst': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'burst': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "filter": [
+        "{'filter': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'filter': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'filter': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "count": [
+        "{'count': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'count': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'count': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "decrease": [
+        "{'decrease': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'decrease': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'decrease': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "suffocate": [
+        "{'suffocate': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\n  \"suffocate\": {\n    \"agency\": \"agency_pos\",\n    \"power\": \"power_agent\"\n  }\n}",
+        "{'suffocate': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "faint": [
+        "{'faint': {'agency': 'agency_neg', 'power': nan}}",
+        "{'faint': {'agency': 'agency_neg', 'power': nan}}",
+        "{'faint': {'agency': 'agency_neg', 'power': 'power_agent'}}"
+    ],
+    "circulate": [
+        "{'circulate': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'circulate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'circulate': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "heat": [
+        "{'heat': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'heat': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'heat': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "wad": [
+        "{'wad': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'wad': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'wad': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "accuse": [
+        "{'accuse': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'accuse': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'accuse': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "handcuff": [
+        "{'handcuff': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'handcuff': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'handcuff': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "circle": [
+        "{'circle': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'circle': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'circle': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "raise": [
+        "{'raise': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'raise': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'raise': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "take": [
+        "{'take': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'take': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'take': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "overflow": [
+        "{'overflow': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'overflow': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'overflow': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "tattoo": [
+        "{'tattoo': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'tattoo': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'tattoo': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "commission": [
+        "{'commission': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'commission': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'commission': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "prepare": [
+        "{'prepare': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'prepare': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'prepare': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "renew": [
+        "{'renew': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'renew': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'renew': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "negotiate": [
+        "{'negotiate': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'negotiate': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'negotiate': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "sight": [
+        "{\"sight\": {\"agency\": \"agency_equal\", \"power\": \"power_theme\"}}",
+        "{'sight': {'agency': 'agency_neg', 'power': 'power_equal'}}",
+        "{'sight': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "head": [
+        "{'head': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'head': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'head': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "gush": [
+        "{'gush': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'gush': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'gush': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "drape": [
+        "{'drape': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'drape': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'drape': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "reduce": [
+        "{'reduce': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"reduce\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'reduce': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "depress": [
+        "{'depress': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'depress': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'depress': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "fashion": [
+        "{'fashion': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'fashion': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'fashion': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "reassure": [
+        "{'reassure': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'reassure': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'reassure': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "post": [
+        "{'post': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'post': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'post': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "threaten": [
+        "{'threaten': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\n    \"threaten\": {\n        \"agency\": \"agency_pos\",\n        \"power\": \"power_theme\"\n    }\n}",
+        "{'threaten': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "clip": [
+        "{'clip': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'clip': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'clip': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "hum": [
+        "{'hum': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'hum': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'hum': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "attempt": [
+        "{'attempt': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'attempt': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'attempt': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "lock": [
+        "{'lock': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'lock': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'lock': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "bail": [
+        "{'bail': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bail': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bail': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "watch": [
+        "{'watch': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'watch': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'watch': {'agency': 'agency_neg', 'power': 'power_agent'}}"
+    ],
+    "spur": [
+        "{'spur': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'spur': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'spur': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "steal": [
+        "{'steal': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'steal': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'steal': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "push": [
+        "{'push': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'push': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'push': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "plop": [
+        "{'plop': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'plop': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'plop': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "quicken": [
+        "{'quicken': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'quicken': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"quicken\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}"
+    ],
+    "award": [
+        "{'award': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'award': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'award': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "appraise": [
+        "{'appraise': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'appraise': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'appraise': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "spring": [
+        "{'spring': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'spring': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'spring': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "deposit": [
+        "{'deposit': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'deposit': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'deposit': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "rain": [
+        "{'rain': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'rain': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'rain': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "swap": [
+        "{'swap': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'swap': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'swap': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "wobble": [
+        "{'wobble': {'agency': 'agency_pos', 'power': nan}}",
+        "{'wobble': {'agency': 'agency_pos', 'power': nan}}",
+        "{'wobble': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "recount": [
+        "{'recount': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'recount': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'recount': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "examine": [
+        "{'examine': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'examine': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'examine': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "rant": [
+        "{'rant': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'rant': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'rant': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "crack": [
+        "{'crack': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'crack': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'crack': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "trick": [
+        "{'trick': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'trick': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'trick': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "land": [
+        "{'land': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'land': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'land': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "reconsider": [
+        "{'reconsider': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'reconsider': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'reconsider': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "scorch": [
+        "{'scorch': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'scorch': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'scorch': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "contact": [
+        "{'contact': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'contact': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'contact': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "rise": [
+        "{'rise': {'agency': 'agency_pos', 'power': nan}}",
+        "{\"rise\": {\"agency\": \"agency_pos\", \"power\": \"nan\"}}",
+        "{'rise': {'agency': 'agency_pos', 'power': nan}}"
+    ],
+    "transfer": [
+        "{'transfer': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'transfer': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'transfer': {'agency': 'agency_equal', 'power': 'power_equal'}}"
+    ],
+    "startle": [
+        "{'startle': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'startle': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'startle': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "persuade": [
+        "{'persuade': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'persuade': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'persuade': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "crest": [
+        "{'crest': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'crest': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'crest': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "intensify": [
+        "{'intensify': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'intensify': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'intensify': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "overcome": [
+        "{'overcome': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'overcome': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'overcome': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "stop": [
+        "{'stop': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'stop': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"stop\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}"
+    ],
+    "purr": [
+        "{'purr': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'purr': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'purr': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "obsesses over": [
+        "{'obsesses over': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'obsesses over': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'obsesses over': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "squat": [
+        "{'squat': {'agency': 'agency_pos', 'power': nan}}",
+        "{'squat': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'squat': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "hurl": [
+        "{'hurl': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'hurl': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'hurl': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "swirl": [
+        "{'swirl': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'swirl': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{\n  \"swirl\": {\n    \"agency\": \"agency_equal\",\n    \"power\": \"nan\"\n  }\n}"
+    ],
+    "last": [
+        "{'last': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'last': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'last': {'agency': 'agency_equal', 'power': 'power_equal'}}"
+    ],
+    "wonder": [
+        "{'wonder': {'agency': 'agency_equal', 'power': 'power_equal'}}",
+        "{'wonder': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'wonder': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "cop": [
+        "{'cop': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'cop': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'cop': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "proceed": [
+        "{'proceed': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'proceed': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'proceed': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "muster": [
+        "{'muster': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'muster': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'muster': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "confine": [
+        "{'confine': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'confine': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'confine': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "scribble": [
+        "{'scribble': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'scribble': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'scribble': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "tether": [
+        "{'tether': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'tether': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'tether': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "annoy": [
+        "{'annoy': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'annoy': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'annoy': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "register": [
+        "{'register': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'register': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'register': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "recover": [
+        "{'recover': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'recover': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'recover': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "intersect": [
+        "{'intersect': {'agency': 'agency_equal', 'power': nan}}",
+        "{'intersect': {'agency': 'agency_equal', 'power': nan}}",
+        "{'intersect': {'agency': 'agency_equal', 'power': 'power_equal'}}"
+    ],
+    "project": [
+        "{'project': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'project': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'project': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "douse": [
+        "{'douse': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'douse': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'douse': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "zip": [
+        "{'zip': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'zip': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'zip': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "surrender": [
+        "{'surrender': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{\"surrender\": {\"agency\": \"agency_neg\", \"power\": \"power_agent\"}}",
+        "{'surrender': {'agency': 'agency_neg', 'power': 'power_agent'}}"
+    ],
+    "lose": [
+        "{'lose': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'lose': {'agency': 'agency_neg', 'power': 'power_equal'}}",
+        "{'lose': {'agency': 'agency_neg', 'power': 'power_theme'}}"
+    ],
+    "tremble": [
+        "{'tremble': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'tremble': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'tremble': {'agency': 'agency_pos', 'power': 'nan'}}"
+    ],
+    "spiral": [
+        "{'spiral': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'spiral': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'spiral': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "pave": [
+        "{'pave': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'pave': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'pave': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "bows to": [
+        "{'bows to': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'bows to': {'agency': 'agency_neg', 'power': 'power_agent'}}",
+        "{'bows to': {'agency': 'agency_neg', 'power': 'power_theme'}}"
+    ],
+    "evolve": [
+        "{'evolve': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'evolve': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'evolve': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "resist": [
+        "{'resist': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'resist': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'resist': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "subdue": [
+        "{'subdue': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'subdue': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'subdue': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "gouge": [
+        "{'gouge': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'gouge': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"gouge\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}"
+    ],
+    "undress": [
+        "{'undress': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'undress': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'undress': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "touch": [
+        "{'touch': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'touch': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'touch': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "address": [
+        "{'address': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'address': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'address': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "teach": [
+        "{'teach': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'teach': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'teach': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "disapproves of": [
+        "{'disapproves of': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'disapproves of': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'disapproves of': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "employ": [
+        "{'employ': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'employ': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'employ': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "bore": [
+        "{'bore': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'bore': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'bore': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "alarm": [
+        "{'alarm': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'alarm': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'alarm': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "bleach": [
+        "{'bleach': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'bleach': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'bleach': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "pledge": [
+        "{'pledge': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'pledge': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'pledge': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "cuff": [
+        "{'cuff': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'cuff': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'cuff': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "insult": [
+        "{'insult': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'insult': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'insult': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "introduce": [
+        "{'introduce': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'introduce': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'introduce': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "propel": [
+        "{'propel': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'propel': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'propel': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "review": [
+        "{'review': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'review': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'review': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "fee": [
+        "{'fee': {'agency': 'agency_pos', 'power': 'nan'}}",
+        "{'fee': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'fee': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "appear": [
+        "{'appear': {'agency': 'agency_equal', 'power': 'power_equal'}}",
+        "{'appear': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'appear': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "crash": [
+        "{'crash': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'crash': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'crash': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "suppress": [
+        "{'suppress': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'suppress': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'suppress': {'agency': 'agency_neg', 'power': 'power_theme'}}"
+    ],
+    "cross": [
+        "{'cross': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'cross': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'cross': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "hide": [
+        "{'hide': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'hide': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'hide': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "defer": [
+        "{'defer': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'defer': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'defer': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "generate": [
+        "{'generate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'generate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'generate': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "wash": [
+        "{'wash': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'wash': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'wash': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "mediate": [
+        "{'mediate': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'mediate': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'mediate': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "litter": [
+        "{'litter': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'litter': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'litter': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "shimmer": [
+        "{'shimmer': {'agency': 'agency_equal', 'power': 'power_theme'}}",
+        "{'shimmer': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'shimmer': {'agency': 'agency_neg', 'power': nan}}"
+    ],
+    "link": [
+        "{'link': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'link': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'link': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "drill": [
+        "{'drill': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'drill': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'drill': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "donate": [
+        "{'donate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'donate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'donate': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "carve": [
+        "{'carve': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"carve\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"} }",
+        "{'carve': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "scuttle": [
+        "{'scuttle': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'scuttle': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'scuttle': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "dismiss": [
+        "{'dismiss': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'dismiss': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'dismiss': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "dim": [
+        "{'dim': {'agency': 'agency_neg', 'power': nan}}",
+        "{'dim': {'agency': 'agency_neg', 'power': nan}}",
+        "{\"dim\": {\"agency\": \"agency_neg\", \"power\": \"power_equal\"}}"
+    ],
+    "crumble": [
+        "{'crumble': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'crumble': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'crumble': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "disrupt": [
+        "{'disrupt': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'disrupt': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'disrupt': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "shin": [
+        "{\"shin\": {\"agency\": \"agency_equal\", \"power\": \"nan\"}}",
+        "{'shin': {'agency': 'agency_equal', 'power': 'nan'}}",
+        "{'shin': {'agency': 'agency_equal', 'power': 'nan'}}"
+    ],
+    "activate": [
+        "{'activate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'activate': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'activate': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "unbuckle": [
+        "{'unbuckle': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'unbuckle': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'unbuckle': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "signal": [
+        "{'signal': {'agency': 'agency_pos', 'power': 'power_equal'}}",
+        "{'signal': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'signal': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "consult": [
+        "{'consult': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'consult': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'consult': {'agency': 'agency_pos', 'power': 'power_equal'}}"
+    ],
+    "oversee": [
+        "{'oversee': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"oversee\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}",
+        "{'oversee': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "displace": [
+        "{'displace': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'displace': {'agency': 'agency_neg', 'power': 'power_theme'}}",
+        "{'displace': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "skitter": [
+        "{'skitter': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'skitter': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'skitter': {'agency': 'agency_pos', 'power': 'power_agent'}}"
+    ],
+    "glitter": [
+        "{'glitter': {'agency': 'agency_equal', 'power': nan}}",
+        "{'glitter': {'agency': 'agency_equal', 'power': nan}}",
+        "{'glitter': {'agency': 'agency_equal', 'power': 'power_theme'}}"
+    ],
+    "implement": [
+        "{'implement': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'implement': {'agency': 'agency_pos', 'power': 'power_theme'}}",
+        "{'implement': {'agency': 'agency_pos', 'power': 'power_theme'}}"
+    ],
+    "darken": [
+        "{'darken': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{'darken': {'agency': 'agency_pos', 'power': 'power_agent'}}",
+        "{\"darken\": {\"agency\": \"agency_pos\", \"power\": \"power_agent\"}}"
+    ]
+}
