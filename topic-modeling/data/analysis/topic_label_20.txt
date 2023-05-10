@@ -6,7 +6,7 @@
 5_feeling (moderate)_like feel really also know lot think still idk maybe
 6_groceryShopping (moderate)_food mad buy money cookies store candy buying kitchen fucking
 7_feeling (moderate)_know really get want eating think help tell disorder also
-8_eat (good)_eat eating food feel like meal even day hungry want
+8_eating (good)_eat eating food feel like meal even day hungry want
 9_community (moderate)_people post group recovery made diet disordered certain looking posts
 10_weight (good)_weight gain lose gained eating back underweight bmi want NUM
 11_appearance (good)_body look weight see clothes skinny fat looked face fit
