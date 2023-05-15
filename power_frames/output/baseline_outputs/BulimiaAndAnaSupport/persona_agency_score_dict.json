@@ -1,0 +1,11 @@
+{
+    "narrator": 0.015151515151515154,
+    "reader": 0.031565656565656575,
+    "family": 0.0,
+    "therapist": 1.0,
+    "medical_prof": 0.75,
+    "ED": 1.0,
+    "doctor": 0.5,
+    "friend": -1.0,
+    "ex_SO": 0.5
+}

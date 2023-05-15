@@ -1,0 +1,16 @@
+{
+    "friend": 15,
+    "family": 23,
+    "reader": 12,
+    "narrator": 21,
+    "SO_neutral": 3,
+    "SO_any": 19,
+    "therapist": 1,
+    "medical_prof": 2,
+    "SO_male": 15,
+    "ex_SO": 2,
+    "doctor": 1,
+    "SO_female": 1,
+    "food": 1,
+    "ED": 3
+}

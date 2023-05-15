@@ -1,0 +1,15 @@
+{
+    "narrator": 59,
+    "doctor": 9,
+    "medical_prof": 12,
+    "ED": 23,
+    "reader": 89,
+    "family": 19,
+    "food": 15,
+    "SO_neutral": 2,
+    "SO_any": 5,
+    "therapist": 2,
+    "SO_male": 3,
+    "friend": 5,
+    "ex_SO": 0
+}
