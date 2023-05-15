@@ -295,6 +295,90 @@ def get_trigger_instruction_prompt():
     }
     """
 
+def get_trigger_examples(num_example: int, force_include_no_trigger: bool, force_include_multiple_triggers: bool):
+    all_examples = [
+        """
+    Narrative: i don‚Äö√Ñ√¥t care if it‚Äö√Ñ√¥s a story or advice i just want to know you‚Äö√Ñ√¥re out there. i‚Äö√Ñ√¥ve struggled off and on with anorexia for almost 7 years now and this is the worst it‚Äö√Ñ√¥s ever been and i feel so hopeless like it‚Äö√Ñ√¥s never going to get better. i‚Äö√Ñ√¥m underweight and everyone‚Äö√Ñ√¥s very worried about me and i‚Äö√Ñ√¥m so paranoid and delusional and i don‚Äö√Ñ√¥t want help but also i do and god I don‚Äö√Ñ√¥t know i know i‚Äö√Ñ√¥m going to have to make some serious changes soon but i‚Äö√Ñ√¥m so scared and it feels like this will never end. i just want to know things can really sincerely get better
+    
+    {
+    'perspective': 'writer',
+    'gender': None,
+    'age': None,
+    'duration': '7',
+    'has_trigger': 'no',
+    'trigger': None,
+    'trigger_type': None
+    }
+    """,
+    """
+    Narrative: Pretty much the title. I turned on an old phone so my son could have one to play with. As I was going through the photos I came across pictures I had taken a couple years ago when I was at my lowest weight and now I‚Äö√Ñ√¥m feeling very conflicted. I looked so sick and boney. My eyes were dead and I can tell I wasn‚Äö√Ñ√¥t happy‚Äö√Ñ¬∂ yet I miss it so much. I miss the way my pants rubbed against my hips and how I could comfortably curl up into a tiny ball. Now all I can think about it the left over pizza I ate for lunch. I hate myself right now.
+    
+    {
+    'perspective': 'writer',
+    'gender': None,
+    'age': None,
+    'duration': None,
+    'has_trigger': 'yes',
+    'trigger': 'going through old photos when at lowest weight',
+    'trigger_type': 'internal'
+    }
+    """,
+    """
+    Narrative: i feel awful. i have officially relapsed and it's really difficult to admit it. my partner/husband of 12 years has decided he wants to separate out of the blue and it has caused a spiral. it's also caused a lot of trauma &amp; flashbacks to come back. it's been less than 2 months since he announced it ans moved out, yet i'm already in relapse. how did i even get here?! I'm annoyed with myself and angry. i don't have family to count on, only friends or previous foster places. i got a doctors appointment and am now on a waiting list for ED treatment but with covid going on i don't know how long the wait will be. i don't want to burden my friends or be a nuisance in general. i just don't know how to deal with everything. trying my best here &amp; hope i'll get out the other side.
+    
+    {
+    'perspective': 'writer',
+    'gender': 'female',
+    'age': None,
+    'duration': None,
+    'has_trigger': 'yes',
+    'trigger': 'husband wants to separate',
+    'trigger_type': 'external'
+    }
+    """,
+    """
+    Narrative: my parents are helping me pay for my credit card, since i have been unemployed for quite a long time - the only thing i buy on my credit card is food. I live alone and after a big relapse of restricting in 2017, i started b/p in 2018 and haven‚Äö√Ñ√¥t really stopped. i‚Äö√Ñ√¥ve been trying to stop purging cause it was taking a toll on me health, but i gained a lot of weight for that. my dad noticed and mentioned it last time we saw each other. today they started checking the credit card bill and then confronted me about what i was spending on food (they don‚Äö√Ñ√¥t know anything about my ed). over the phone i just wanted to die, as they started actually pulling up the bills online with the specific PRODUCTS, and bringing up again how much i have gained and how this is too much food. i was already planning a fast and thinking quarantine could help with my binges... now i can only see me relapsing the fuck back into hard restricting
+    
+    {
+    'perspective': 'writer',
+    'gender': None,
+    'age': None,
+    'duration': None,
+    'has_trigger': 'yes',
+    'trigger': 'parents confronting bills about food',
+    'trigger_type': 'external'
+    }
+    """,
+    """
+    Narrative: I'm early on in recovery, but I've been doing so well. Until now. Just a few minutes ago, for god knows what reason, I went onto a pro ana online space (I'm not gonna name any names), and typed out a post with my current body stats asking how much weight I should lose. I didn't hit the ""post"" button, but I closed the tab and thought to myself ""wtf is wrong with me??!!"" I've eaten a lot less than I'm supposed to today. I really want to restrict again, and idk why. Idk if it's the bloating that triggered me, my nutrition appointment today, stress about exams, or when my mom said ""you've been looking so much healthier"" to me. Whatever it was, I'm already planning how to lose weight again, and how, and how much. But I'm supposed to be in recovery! Wtf is wrong with me?? Also I'm hungry and conflicted about having a snack or not, the recovery part of me is like ""yes, have a snack!"" and the ED part of me is like ""NO! RESTRICT!"" AAAGGGGHHHHHH!!!!!!
+    
+    {
+    'perspective': 'writer',
+    'gender': None,
+    'age': None,
+    'duration': None,
+    'has_trigger': 'yes',
+    'trigger': ['bloating', 'nutrition appointment', 'stress about examples', 'mom commenting about body'],
+    'trigger_type': ['internal', 'external', 'internal', 'external']
+    }
+    """
+    ]
+    if num_example >= 5:
+        return "\n\n".join(all_examples)
+    else:
+        selected_examples = []
+        if force_include_no_trigger and force_include_multiple_triggers:
+            assert num_example >= 2
+        if force_include_no_trigger:
+            selected_examples.append(all_examples[0])
+        if force_include_multiple_triggers:
+            selected_examples.append(all_examples[4])
+        for i in range(num_example - len(selected_examples)):
+            selected_examples.append(all_examples[i + 1])
+        return "\n\n".join(selected_examples)
+
+
+
 
 def set_logging(logger, *, log_file: str, log_level=logging.INFO) -> logging:
     """
