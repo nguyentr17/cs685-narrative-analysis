@@ -23,6 +23,12 @@
   - `/script/lmw_result.ipynb` contains code for preprocessing, training and analyzing the topic modeling results.
   - `/script/lmw.py` contains helper code for training the LDA model.
 5. Power and Agency Analysis
-
+- `/power_frames/power-frames-ORIGINAL` is the original repo from https://github.com/maria-antoniak/power-frames with slight modifications.
+- `/power_frames/power-frames` is the modified power analysis with coreference resolution added.
+- Important scripts inside `/power_frames/`:
+  - `compute_power.ipynb': taken from the original power-frames repo, but with our own personas defined
+  - 'compare_power.ipynb': make charts and figures comparing different methods
+  - 'find_missing_verbs.ipynb': parse data with spaCy and extract verbs
+  - 'gpt_augment_lexicon.ipynb': prompt chatgpt to label verbs
 
 
