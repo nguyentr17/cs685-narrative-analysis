@@ -1,7 +1,9 @@
 {
-    "narrator": 13,
+    "family": 4,
+    "narrator": 14,
     "food": 1,
-    "reader": 9,
-    "family": 1,
+    "reader": 11,
+    "doctor": 1,
+    "medical_prof": 1,
     "ED": 1
 }

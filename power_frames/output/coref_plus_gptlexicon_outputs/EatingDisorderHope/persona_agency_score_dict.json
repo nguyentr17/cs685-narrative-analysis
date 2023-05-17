@@ -1,0 +1,16 @@
+{
+    "friend": 0.8823529411764706,
+    "family": 0.5531135531135531,
+    "reader": -0.40625,
+    "narrator": 0.20520833333333333,
+    "SO_neutral": 1.0,
+    "SO_any": 0.85,
+    "therapist": 1.0,
+    "medical_prof": 1.0,
+    "ex_SO": 0.6666666666666666,
+    "SO_male": 0.7,
+    "doctor": 1.0,
+    "food": 0.5,
+    "SO_female": 1.0,
+    "ED": 0.5
+}

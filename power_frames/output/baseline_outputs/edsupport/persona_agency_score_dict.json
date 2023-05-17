@@ -1,14 +1,14 @@
 {
-    "narrator": 0.14113562091503268,
-    "reader": 0.02249258677830106,
-    "family": 0.5,
+    "narrator": 0.3333333333333333,
+    "reader": -0.056547619047619034,
+    "family": 1.0,
     "SO_female": 0.0,
     "SO_any": 0.0,
-    "therapist": 0.5,
-    "medical_prof": 0.75,
+    "therapist": 1.0,
+    "medical_prof": 1.0,
     "doctor": 1.0,
-    "ED": 0.25,
+    "ED": 0.6666666666666666,
     "ex_SO": 1.0,
-    "food": 0.1111111111111111,
-    "friend": -0.5
+    "food": 1.0,
+    "friend": -1.0
 }

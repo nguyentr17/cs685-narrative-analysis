@@ -1,0 +1,2157 @@
+{
+    "rest": [
+        "Sentence: I rest it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I rest it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I rest it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "tag": [
+        "Sentence: I tag it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I tag it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I tag it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "hail": [
+        "Sentence: I hail it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hail it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hail it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "clatter": [
+        "Sentence: I clatter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I clatter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I clatter it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "splinter": [
+        "Sentence: I splinter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I splinter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I splinter it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "authorize": [
+        "Sentence: I authorize it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I authorize it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I authorize it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "shout": [
+        "Sentence: I shout\nAgency: agency_pos\nPower: nan",
+        "Sentence: I shout\nAgency: agency_pos\nPower: nan",
+        "Sentence: I shout\nAgency: agency_pos\nPower: nan"
+    ],
+    "shriek": [
+        "Sentence: I shriek\nAgency: agency_pos\nPower: nan",
+        "Sentence: I shriek\nAgency: agency_pos\nPower: nan",
+        "Sentence: I shriek\nAgency: agency_pos\nPower: nan"
+    ],
+    "swim": [
+        "Sentence: I swim\nAgency: agency_pos\nPower: nan",
+        "Sentence: I swim\nAgency: agency_pos\nPower: nan",
+        "Sentence: I swim\nAgency: agency_pos\nPower: nan"
+    ],
+    "extend": [
+        "Sentence: I extend it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I extend it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I extend it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "capture": [
+        "Sentence: I capture it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I capture it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I capture it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "button": [
+        "Sentence: I button it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I button it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I button it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "eject": [
+        "Sentence: I eject it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I eject it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I eject it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "work": [
+        "Sentence: I work it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I work it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I work it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "admit": [
+        "Sentence: I admit it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I admit it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I admit it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "love": [
+        "Sentence: I love it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I love it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I love it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "linger": [
+        "Sentence: I linger\nAgency: agency_neg\nPower: nan",
+        "Sentence: I linger\nAgency: agency_neg\nPower: nan",
+        "Sentence: I linger\nAgency: agency_neg\nPower: nan"
+    ],
+    "drum": [
+        "Sentence: I drum it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I drum it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I drum it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "twist": [
+        "Sentence: I twist it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I twist it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I twist it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "bath": [
+        "Sentence: I bath\nAgency: agency_pos\nPower: nan",
+        "Sentence: I bath\nAgency: agency_pos\nPower: nan",
+        "Sentence: I bath\nAgency: agency_pos\nPower: nan"
+    ],
+    "sulk": [
+        "Sentence: I sulk\nAgency: agency_neg\nPower: nan",
+        "Sentence: I sulk\nAgency: agency_neg\nPower: nan",
+        "Sentence: I sulk\nAgency: agency_neg\nPower: nan"
+    ],
+    "operate": [
+        "Sentence: I operate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I operate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I operate it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "cut": [
+        "Sentence: I cut it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I cut it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I cut it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "tow": [
+        "Sentence: I tow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I tow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I tow it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "cheer": [
+        "Sentence: I cheer it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I cheer it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I cheer it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "whimper": [
+        "Sentence: I whimper\nAgency: agency_neg\nPower: nan",
+        "Sentence: I whimper\nAgency: agency_neg\nPower: nan",
+        "Sentence: I whimper\nAgency: agency_neg\nPower: nan"
+    ],
+    "size": [
+        "Sentence: I size it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I size it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I size it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "scrap": [
+        "Sentence: I scrap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I scrap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I scrap it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "submerge": [
+        "Sentence: I submerge it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I submerge it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I submerge it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "clarify": [
+        "Sentence: I clarify it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I clarify it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I clarify it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "manipulate": [
+        "Sentence: I manipulate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I manipulate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I manipulate it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "claw": [
+        "Sentence: I claw it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I claw it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I claw it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "tune": [
+        "Sentence: I tune it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I tune it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I tune it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "hack": [
+        "Sentence: I hack it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hack it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hack it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "nose": [
+        "Sentence: I nose it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I nose it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I nose it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "creep": [
+        "Sentence: I creep\nAgency: agency_pos\nPower: nan",
+        "Sentence: I creep\nAgency: agency_pos\nPower: nan",
+        "Sentence: I creep\nAgency: agency_pos\nPower: nan"
+    ],
+    "contest": [
+        "Sentence: I contest it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I contest it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I contest it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "meet": [
+        "Sentence: I meet them\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I meet them\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I meet them\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "hop": [
+        "Sentence: I hop it\nAgency: agency_equal\nPower: power_theme",
+        "Sentence: I hop it\nAgency: agency_equal\nPower: power_theme",
+        "Sentence: I hop it\nAgency: agency_equal\nPower: power_theme"
+    ],
+    "huff": [
+        "Sentence: I huff\nAgency: agency_pos\nPower: nan",
+        "Sentence: I huff\nAgency: agency_pos\nPower: nan",
+        "Sentence: I huff\nAgency: agency_pos\nPower: nan"
+    ],
+    "claim": [
+        "Sentence: I claim it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I claim it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I claim it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "round": [
+        "Sentence: I round it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I round it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I round it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "blame": [
+        "Sentence: I blame it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I blame it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I blame it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "soothe": [
+        "Sentence: I soothe it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I soothe it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I soothe it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "giggle": [
+        "Sentence: I giggle\nAgency: agency_pos\nPower: nan",
+        "Sentence: I giggle\nAgency: agency_pos\nPower: nan",
+        "Sentence: I giggle\nAgency: agency_pos\nPower: nan"
+    ],
+    "fix": [
+        "Sentence: I fix it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I fix it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I fix it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "relates to": [
+        "Sentence: I relate to it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I relate to it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I relate to it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "devour": [
+        "Sentence: I devour it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I devour it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I devour it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "complain": [
+        "Sentence: I complain\nAgency: agency_pos\nPower: nan",
+        "Sentence: I complain\nAgency: agency_pos\nPower: nan",
+        "Sentence: I complain\nAgency: agency_pos\nPower: nan"
+    ],
+    "bash": [
+        "Sentence: I bash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bash it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "snore": [
+        "Sentence: I snore\nAgency: agency_equal\nPower: nan",
+        "Sentence: I snore\nAgency: agency_equal\nPower: nan",
+        "Sentence: I snore\nAgency: agency_equal\nPower: nan"
+    ],
+    "respond": [
+        "Sentence: I respond\nAgency: agency_pos\nPower: nan",
+        "Sentence: I respond\nAgency: agency_pos\nPower: nan",
+        "Sentence: I respond\nAgency: agency_pos\nPower: nan"
+    ],
+    "exploit": [
+        "Sentence: I exploit it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I exploit it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I exploit it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "narrow": [
+        "Sentence: I narrow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I narrow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I narrow it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "avoid": [
+        "Sentence: I avoid it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I avoid it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I avoid it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "blurt": [
+        "Sentence: I blurt it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I blurt it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I blurt it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "motivate": [
+        "Sentence: I motivate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I motivate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I motivate it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "process": [
+        "Sentence: I process it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I process it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I process it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "assign": [
+        "Sentence: I assign it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I assign it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I assign it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "recruit": [
+        "Sentence: I recruit it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I recruit it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I recruit it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "mutilate": [
+        "Sentence: I mutilate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I mutilate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I mutilate it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "stash": [
+        "Sentence: I stash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I stash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I stash it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "cower": [
+        "Sentence: I cower\nAgency: agency_neg\nPower: nan",
+        "Sentence: I cower\nAgency: agency_neg\nPower: nan",
+        "Sentence: I cower\nAgency: agency_neg\nPower: nan"
+    ],
+    "wipe": [
+        "Sentence: I wipe it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wipe it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wipe it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "trip": [
+        "Sentence: I trip it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I trip it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I trip it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "freeze": [
+        "Sentence: I freeze it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I freeze it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I freeze it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "refer": [
+        "Sentence: I refer to it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I refer to it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I refer to it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "echo": [
+        "Sentence: I echo it\nAgency: nan\nPower: power_theme",
+        "Sentence: I echo it\nAgency: nan\nPower: power_theme",
+        "Sentence: I echo it\nAgency: nan\nPower: power_theme"
+    ],
+    "exhale": [
+        "Sentence: I exhale it\nAgency: agency_equal\nPower: power_agent",
+        "Sentence: I exhale it\nAgency: agency_equal\nPower: power_agent",
+        "Sentence: I exhale it\nAgency: agency_equal\nPower: power_agent"
+    ],
+    "mumble": [
+        "Sentence: I mumble it\nAgency: agency_equal\nPower: power_equal",
+        "Sentence: I mumble it\nAgency: agency_equal\nPower: power_equal",
+        "Sentence: I mumble it\nAgency: agency_equal\nPower: power_equal"
+    ],
+    "shoulder": [
+        "Sentence: I shoulder it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shoulder it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shoulder it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "mill": [
+        "Sentence: I mill it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I mill it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I mill it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "frisk": [
+        "Sentence: I frisk it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I frisk it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I frisk it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "swerve": [
+        "Sentence: I swerve\nAgency: agency_pos\nPower: nan",
+        "Sentence: I swerve\nAgency: agency_pos\nPower: nan",
+        "Sentence: I swerve\nAgency: agency_pos\nPower: nan"
+    ],
+    "erase": [
+        "Sentence: I erase it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I erase it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I erase it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "dispatch": [
+        "Sentence: I dispatch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dispatch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dispatch it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "shower": [
+        "Sentence: I shower\nAgency: agency_pos\nPower: nan",
+        "Sentence: I shower\nAgency: agency_pos\nPower: nan",
+        "Sentence: I shower\nAgency: agency_pos\nPower: nan"
+    ],
+    "waste": [
+        "Sentence: I waste it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I waste it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I waste it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "consume": [
+        "Sentence: I consume it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I consume it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I consume it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "appeals to": [
+        "Sentence: I appeals to them\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I appeals to them\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I appeals to them\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "progress": [
+        "Sentence: I progress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I progress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I progress it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "concentrates on": [
+        "Sentence: I concentrate on it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I concentrate on it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I concentrate on it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "clothe": [
+        "Sentence: I clothe it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I clothe it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I clothe it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "preside": [
+        "Sentence: I preside over it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I preside over it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I preside over it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "revolves around": [
+        "Sentence: It revolves around me\nAgency: agency_equal\nPower: power_theme",
+        "Sentence: It revolves around me\nAgency: agency_equal\nPower: power_theme",
+        "Sentence: It revolves around me\nAgency: agency_equal\nPower: power_theme"
+    ],
+    "pass": [
+        "Sentence: I pass it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I pass it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I pass it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "destroy": [
+        "Sentence: I destroy it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I destroy it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I destroy it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "divide": [
+        "Sentence: I divide it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I divide it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I divide it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "yank": [
+        "Sentence: I yank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I yank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I yank it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "deepen": [
+        "Sentence: I deepen it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I deepen it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I deepen it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "subtitle": [
+        "Sentence: I subtitle it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I subtitle it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I subtitle it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "preach": [
+        "Sentence: I preach it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I preach it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I preach it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "disappoint": [
+        "Sentence: I disappoint it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I disappoint it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I disappoint it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "invoke": [
+        "Sentence: I invoke it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I invoke it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I invoke it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "assure": [
+        "Sentence: I assure it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I assure it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I assure it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "spell": [
+        "Sentence: I spell it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I spell it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I spell it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "clutch": [
+        "Sentence: I clutch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I clutch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I clutch it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "steel": [
+        "Sentence: I steel it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I steel it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I steel it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "build": [
+        "Sentence: I build it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I build it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I build it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "dog": [
+        "Sentence: I dog it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dog it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dog it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "seduce": [
+        "Sentence: I seduce it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I seduce it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I seduce it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "search": [
+        "Sentence: I search it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I search it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I search it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "snip": [
+        "Sentence: I snip it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I snip it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I snip it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "drip": [
+        "Sentence: I drip it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I drip it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I drip it\nAgency: agency_neg\nPower: power_theme"
+    ],
+    "calm": [
+        "Sentence: I calm it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I calm it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I calm it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "shell": [
+        "Sentence: I shell it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shell it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shell it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "stitch": [
+        "Sentence: I stitch it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I stitch it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I stitch it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "please": [
+        "Sentence: I please it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I please it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I please it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "rear": [
+        "Sentence: I rear it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rear it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rear it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "wake": [
+        "Sentence: I wake him\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wake him\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wake him\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "overtake": [
+        "Sentence: I overtake it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I overtake it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I overtake it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "give": [
+        "Sentence: I give it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I give it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I give it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "wriggle": [
+        "Sentence: I wriggle it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I wriggle it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I wriggle it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "strap": [
+        "Sentence: I strap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I strap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I strap it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "saw": [
+        "Sentence: I saw it\nAgency: agency_neg\nPower: power_equal",
+        "Sentence: I saw it\nAgency: agency_neg\nPower: power_equal",
+        "Sentence: I saw it\nAgency: agency_neg\nPower: power_equal"
+    ],
+    "retire": [
+        "Sentence: I retire\nAgency: agency_pos\nPower: nan",
+        "Sentence: I retire\nAgency: agency_pos\nPower: nan",
+        "Sentence: I retire\nAgency: agency_pos\nPower: nan"
+    ],
+    "flank": [
+        "Sentence: I flank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I flank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I flank it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "discover": [
+        "Sentence: I discover it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I discover it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I discover it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "apologizes to": [
+        "Sentence: He apologizes to her\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: He apologizes to her\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: He apologizes to her\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "paint": [
+        "Sentence: I paint it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I paint it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I paint it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "decorate": [
+        "Sentence: I decorate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I decorate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I decorate it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "moan": [
+        "Sentence: I moan\nAgency: agency_pos\nPower: nan",
+        "Sentence: I moan\nAgency: agency_pos\nPower: nan",
+        "Sentence: I moan\nAgency: agency_pos\nPower: nan"
+    ],
+    "rejoin": [
+        "Sentence: I rejoin it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I rejoin it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I rejoin it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "boot": [
+        "Sentence: I boot it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I boot it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I boot it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "snow": [
+        "Sentence: I snow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I snow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I snow it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "listen": [
+        "Sentence: I listen to it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I listen to it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I listen to it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "precede": [
+        "Sentence: I precede it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I precede it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I precede it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "phone": [
+        "Sentence: I phone it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I phone it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I phone it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "inflict": [
+        "Sentence: I inflict it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I inflict it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I inflict it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "devote": [
+        "Sentence: I devote it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I devote it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I devote it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "grasp": [
+        "Sentence: I grasp it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I grasp it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I grasp it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "choose": [
+        "Sentence: I choose it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I choose it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I choose it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "heal": [
+        "Sentence: I heal it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I heal it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I heal it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "sell": [
+        "Sentence: I sell it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I sell it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I sell it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "hustle": [
+        "Sentence: I hustle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hustle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hustle it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "dial": [
+        "Sentence: I dial it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dial it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dial it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "rip": [
+        "Sentence: I rip it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rip it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rip it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "hitch": [
+        "Sentence: I hitch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hitch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hitch it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "bank": [
+        "Sentence: I bank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bank it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "leave": [
+        "Sentence: I leave it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I leave it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I leave it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "develop": [
+        "Sentence: I develop it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I develop it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I develop it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "correct": [
+        "Sentence: I correct it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I correct it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I correct it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "shadow": [
+        "Sentence: I shadow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shadow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shadow it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "wrap": [
+        "Sentence: I wrap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wrap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wrap it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "allege": [
+        "Sentence: I allege it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I allege it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I allege it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "roll": [
+        "Sentence: I roll it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I roll it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I roll it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "stabilize": [
+        "Sentence: I stabilize it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I stabilize it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I stabilize it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "overlap": [
+        "Sentence: I overlap it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I overlap it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I overlap it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "deliver": [
+        "Sentence: I deliver it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I deliver it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I deliver it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "unleash": [
+        "Sentence: I unleash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I unleash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I unleash it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "slosh": [
+        "Sentence: I slosh it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I slosh it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I slosh it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "drift": [
+        "Sentence: I drift\nAgency: agency_neg\nPower: nan",
+        "Sentence: I drift\nAgency: agency_neg\nPower: nan",
+        "Sentence: I drift\nAgency: agency_neg\nPower: nan"
+    ],
+    "magnify": [
+        "Sentence: I magnify it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I magnify it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I magnify it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "deem": [
+        "Sentence: I deem it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I deem it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I deem it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "savor": [
+        "Sentence: I savor it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I savor it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I savor it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "relieve": [
+        "Sentence: I relieve it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I relieve it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I relieve it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "bulge": [
+        "Sentence: I bulge it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I bulge it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I bulge it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "caress": [
+        "Sentence: I caress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I caress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I caress it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "collides with": [
+        "Sentence: I collide with it\nAgency: agency_equal\nPower: power_equal",
+        "Sentence: I collide with it\nAgency: agency_equal\nPower: power_equal",
+        "Sentence: I collide with it\nAgency: agency_equal\nPower: power_equal"
+    ],
+    "spar": [
+        "Sentence: I spar it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I spar it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I spar it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "report": [
+        "Sentence: I report it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I report it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I report it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "state": [
+        "Sentence: I state it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I state it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I state it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "bob": [
+        "Sentence: I bob it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I bob it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I bob it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "regain": [
+        "Sentence: I regain it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I regain it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I regain it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "cough": [
+        "Sentence: I cough\nAgency: agency_pos\nPower: nan",
+        "Sentence: I cough\nAgency: agency_pos\nPower: nan",
+        "Sentence: I cough\nAgency: agency_pos\nPower: nan"
+    ],
+    "offend": [
+        "Sentence: I offend it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I offend it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I offend it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "bundle": [
+        "Sentence: I bundle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bundle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bundle it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "mutter": [
+        "Sentence: I mutter it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I mutter it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I mutter it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "swell": [
+        "Sentence: I swell it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I swell it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I swell it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "labor": [
+        "Sentence: I labor\nAgency: agency_pos\nPower: nan",
+        "Sentence: I labor\nAgency: agency_pos\nPower: nan",
+        "Sentence: I labor\nAgency: agency_pos\nPower: nan"
+    ],
+    "mat": [
+        "Sentence: I mat it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I mat it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I mat it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "empty": [
+        "Sentence: I empty it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I empty it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I empty it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "slow": [
+        "Sentence: I slow it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I slow it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I slow it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "stow": [
+        "Sentence: I stow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I stow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I stow it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "ship": [
+        "Sentence: I ship it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I ship it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I ship it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "organize": [
+        "Sentence: I organize it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I organize it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I organize it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "warrant": [
+        "Sentence: I warrant it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I warrant it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I warrant it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "store": [
+        "Sentence: I store it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I store it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I store it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "implore": [
+        "Sentence: I implore it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I implore it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I implore it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "groom": [
+        "Sentence: I groom it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I groom it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I groom it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "sing": [
+        "Sentence: I sing it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I sing it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I sing it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "grope": [
+        "Sentence: I grope it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I grope it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I grope it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "envision": [
+        "Sentence: I envision it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I envision it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I envision it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "bag": [
+        "Sentence: I bag it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bag it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bag it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "exist": [
+        "Sentence: I exist\nAgency: agency_pos\nPower: nan",
+        "Sentence: I exist\nAgency: agency_pos\nPower: nan",
+        "Sentence: I exist\nAgency: agency_pos\nPower: nan"
+    ],
+    "row": [
+        "Sentence: I row it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I row it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I row it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "confess": [
+        "Sentence: I confess it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I confess it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I confess it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "amuse": [
+        "Sentence: I amuse it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I amuse it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I amuse it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "disguise": [
+        "Sentence: I disguise it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I disguise it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I disguise it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "lap": [
+        "Sentence: I lap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I lap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I lap it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "thunder": [
+        "Sentence: I thunder\nAgency: agency_pos\nPower: nan",
+        "Sentence: I thunder\nAgency: agency_pos\nPower: nan",
+        "Sentence: I thunder\nAgency: agency_pos\nPower: nan"
+    ],
+    "slaughter": [
+        "Sentence: I slaughter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I slaughter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I slaughter it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "span": [
+        "Sentence: I span it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I span it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I span it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "lick": [
+        "Sentence: I lick it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I lick it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I lick it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "purchase": [
+        "Sentence: I purchase it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I purchase it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I purchase it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "shock": [
+        "Sentence: I shock it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I shock it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I shock it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "inspire": [
+        "Sentence: I inspire it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I inspire it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I inspire it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "breathe": [
+        "Sentence: I breathe\nAgency: agency_equal\nPower: nan",
+        "Sentence: I breathe\nAgency: agency_equal\nPower: nan",
+        "Sentence: I breathe\nAgency: agency_equal\nPower: nan"
+    ],
+    "charm": [
+        "Sentence: I charm it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I charm it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I charm it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "summon": [
+        "Sentence: I summon it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I summon it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I summon it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "relent": [
+        "Sentence: I relent\nAgency: agency_pos\nPower: nan",
+        "Sentence: I relent\nAgency: agency_pos\nPower: nan",
+        "Sentence: I relent\nAgency: agency_pos\nPower: nan"
+    ],
+    "mock": [
+        "Sentence: I mock it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I mock it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I mock it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "crank": [
+        "Sentence: I crank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I crank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I crank it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "match": [
+        "Sentence: I match it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I match it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I match it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "turn": [
+        "Sentence: I turn it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I turn it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I turn it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "target": [
+        "Sentence: I target it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I target it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I target it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "suggest": [
+        "Sentence: I suggest it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I suggest it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I suggest it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "grieve": [
+        "Sentence: I grieve\nAgency: agency_pos\nPower: nan",
+        "Sentence: I grieve\nAgency: agency_pos\nPower: nan",
+        "Sentence: I grieve\nAgency: agency_pos\nPower: nan"
+    ],
+    "agonizes over": [
+        "Sentence: I agonize over it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I agonize over it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I agonize over it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "dance": [
+        "Sentence: I dance it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dance it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dance it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "pet": [
+        "Sentence: I pet it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I pet it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I pet it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "harm": [
+        "Sentence: I harm it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I harm it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I harm it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "die": [
+        "Sentence: I die\nAgency: agency_neg\nPower: power_equal",
+        "Sentence: I die\nAgency: agency_neg\nPower: power_equal",
+        "Sentence: I die\nAgency: agency_neg\nPower: power_equal"
+    ],
+    "deal": [
+        "Sentence: I deal it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I deal it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I deal it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "shovel": [
+        "Sentence: I shovel it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shovel it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shovel it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "corner": [
+        "Sentence: I corner it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I corner it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I corner it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "cast": [
+        "Sentence: I cast it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I cast it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I cast it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "relax": [
+        "Sentence: I relax it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I relax it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I relax it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "lower": [
+        "Sentence: I lower it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I lower it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I lower it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "rig": [
+        "Sentence: I rig it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rig it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rig it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "scar": [
+        "Sentence: I scar it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I scar it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I scar it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "appeal": [
+        "Sentence: I appeal it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I appeal it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I appeal it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "drown": [
+        "Sentence: I drown it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I drown it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I drown it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "motions to": [
+        "Sentence: I motion to them\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I motion to them\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I motion to them\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "compose": [
+        "Sentence: I compose it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I compose it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I compose it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "chokes on": [
+        "Sentence: I choke on it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I choke on it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I choke on it\nAgency: agency_neg\nPower: power_theme"
+    ],
+    "crouch": [
+        "Sentence: I crouch\nAgency: agency_pos\nPower: nan",
+        "Sentence: I crouch\nAgency: agency_pos\nPower: nan",
+        "Sentence: I crouch\nAgency: agency_pos\nPower: nan"
+    ],
+    "unwrap": [
+        "Sentence: I unwrap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I unwrap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I unwrap it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "sob": [
+        "Sentence: I sob\nAgency: agency_neg\nPower: nan",
+        "Sentence: I sob\nAgency: agency_neg\nPower: nan",
+        "Sentence: I sob\nAgency: agency_neg\nPower: nan"
+    ],
+    "ditch": [
+        "Sentence: I ditch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I ditch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I ditch it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "snap": [
+        "Sentence: I snap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I snap it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I snap it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "identify": [
+        "Sentence: I identify it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I identify it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I identify it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "figure": [
+        "Sentence: I figure it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I figure it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I figure it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "check": [
+        "Sentence: I check it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I check it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I check it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "shroud": [
+        "Sentence: I shroud it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shroud it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I shroud it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "digest": [
+        "Sentence: I digest it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I digest it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I digest it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "rank": [
+        "Sentence: I rank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rank it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rank it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "cite": [
+        "Sentence: I cite it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I cite it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I cite it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "extract": [
+        "Sentence: I extract it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I extract it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I extract it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "rock": [
+        "Sentence: I rock it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rock it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rock it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "teeter": [
+        "Sentence: I teeter\nAgency: agency_equal\nPower: nan",
+        "Sentence: I teeter\nAgency: agency_equal\nPower: nan",
+        "Sentence: I teeter\nAgency: agency_equal\nPower: nan"
+    ],
+    "stuff": [
+        "Sentence: I stuff it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I stuff it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I stuff it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "bust": [
+        "Sentence: I bust it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bust it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bust it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "assume": [
+        "Sentence: I assume it\nAgency: agency_neg\nPower: power_agent",
+        "Sentence: I assume it\nAgency: agency_neg\nPower: power_agent",
+        "Sentence: I assume it\nAgency: agency_neg\nPower: power_agent"
+    ],
+    "pee": [
+        "Sentence: I pee\nAgency: agency_pos\nPower: nan",
+        "Sentence: I pee\nAgency: agency_pos\nPower: nan",
+        "Sentence: I pee\nAgency: agency_pos\nPower: nan"
+    ],
+    "rotate": [
+        "Sentence: I rotate it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I rotate it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I rotate it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "nudge": [
+        "Sentence: I nudge it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I nudge it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I nudge it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "dive": [
+        "Sentence: I dive\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dive\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dive\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "nod": [
+        "Sentence: I nod\nAgency: agency_pos\nPower: nan",
+        "Sentence: I nod\nAgency: agency_pos\nPower: nan",
+        "Sentence: I nod\nAgency: agency_pos\nPower: nan"
+    ],
+    "terrify": [
+        "Sentence: I terrify it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I terrify it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I terrify it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "minimize": [
+        "Sentence: I minimize it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I minimize it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I minimize it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "recoil": [
+        "Sentence: I recoil\nAgency: agency_neg\nPower: nan",
+        "Sentence: I recoil\nAgency: agency_neg\nPower: nan",
+        "Sentence: I recoil\nAgency: agency_neg\nPower: nan"
+    ],
+    "thaw": [
+        "Sentence: I thaw it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I thaw it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I thaw it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "coordinate": [
+        "Sentence: I coordinate it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I coordinate it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I coordinate it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "undo": [
+        "Sentence: I undo it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I undo it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I undo it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "bald": [
+        "Sentence: I bald it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bald it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bald it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "speed": [
+        "Sentence: I speed it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I speed it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I speed it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "blush": [
+        "Sentence: I blush\nAgency: agency_pos\nPower: nan",
+        "Sentence: I blush\nAgency: agency_pos\nPower: nan",
+        "Sentence: I blush\nAgency: agency_pos\nPower: nan"
+    ],
+    "defend": [
+        "Sentence: I defend it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I defend it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I defend it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "anticipate": [
+        "Sentence: I anticipate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I anticipate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I anticipate it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "film": [
+        "Sentence: I film it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I film it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I film it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "wrestle": [
+        "Sentence: I wrestle it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I wrestle it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I wrestle it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "escort": [
+        "Sentence: I escort it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I escort it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I escort it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "produce": [
+        "Sentence: I produce it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I produce it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I produce it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "string": [
+        "Sentence: I string it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I string it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I string it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "increase": [
+        "Sentence: I increase it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I increase it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I increase it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "waltz": [
+        "Sentence: I waltz it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I waltz it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I waltz it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "enjoy": [
+        "Sentence: I enjoy it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I enjoy it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I enjoy it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "torture": [
+        "Sentence: I torture it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I torture it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I torture it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "toast": [
+        "Sentence: I toast it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I toast it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I toast it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "entertain": [
+        "Sentence: I entertain it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I entertain it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I entertain it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "trudge": [
+        "Sentence: I trudge\nAgency: agency_pos\nPower: nan",
+        "Sentence: I trudge\nAgency: agency_pos\nPower: nan",
+        "Sentence: I trudge\nAgency: agency_pos\nPower: nan"
+    ],
+    "hunt": [
+        "Sentence: I hunt it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I hunt it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I hunt it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "breed": [
+        "Sentence: I breed it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I breed it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I breed it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "wince": [
+        "Sentence: I wince\nAgency: agency_neg\nPower: nan",
+        "Sentence: I wince\nAgency: agency_neg\nPower: nan",
+        "Sentence: I wince\nAgency: agency_neg\nPower: nan"
+    ],
+    "retain": [
+        "Sentence: I retain it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I retain it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I retain it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "scramble": [
+        "Sentence: I scramble\nAgency: agency_pos\nPower: nan",
+        "Sentence: I scramble\nAgency: agency_pos\nPower: nan",
+        "Sentence: I scramble\nAgency: agency_pos\nPower: nan"
+    ],
+    "thin": [
+        "Sentence: I thin it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I thin it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I thin it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "impale": [
+        "Sentence: I impale it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I impale it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I impale it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "ricochet": [
+        "Sentence: I ricochet it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I ricochet it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I ricochet it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "gasp": [
+        "Sentence: I gasp\nAgency: agency_pos\nPower: nan",
+        "Sentence: I gasp\nAgency: agency_pos\nPower: nan",
+        "Sentence: I gasp\nAgency: agency_pos\nPower: nan"
+    ],
+    "pray": [
+        "Sentence: I pray\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I pray\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I pray\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "snarls at": [
+        "Sentence: He snarls at me\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: He snarls at me\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: He snarls at me\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "break": [
+        "Sentence: I break it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I break it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I break it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "jut": [
+        "Sentence: I jut\nAgency: agency_neg\nPower: nan",
+        "Sentence: I jut\nAgency: agency_neg\nPower: nan",
+        "Sentence: I jut\nAgency: agency_neg\nPower: nan"
+    ],
+    "rumble": [
+        "Sentence: I rumble it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rumble it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I rumble it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "imply": [
+        "Sentence: I imply it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I imply it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I imply it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "brood": [
+        "Sentence: I brood\nAgency: agency_pos\nPower: nan",
+        "Sentence: I brood\nAgency: agency_pos\nPower: nan",
+        "Sentence: I brood\nAgency: agency_pos\nPower: nan"
+    ],
+    "sip": [
+        "Sentence: I sip it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I sip it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I sip it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "burst": [
+        "Sentence: I burst it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I burst it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I burst it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "filter": [
+        "Sentence: I filter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I filter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I filter it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "count": [
+        "Sentence: I count it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I count it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I count it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "decrease": [
+        "Sentence: I decrease it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I decrease it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I decrease it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "suffocate": [
+        "Sentence: I suffocate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I suffocate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I suffocate it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "faint": [
+        "Sentence: I faint\nAgency: agency_neg\nPower: nan",
+        "Sentence: I faint\nAgency: agency_neg\nPower: nan",
+        "Sentence: I faint\nAgency: agency_neg\nPower: nan"
+    ],
+    "circulate": [
+        "Sentence: I circulate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I circulate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I circulate it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "heat": [
+        "Sentence: I heat it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I heat it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I heat it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "wad": [
+        "Sentence: I wad it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wad it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wad it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "accuse": [
+        "Sentence: I accuse it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I accuse it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I accuse it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "handcuff": [
+        "Sentence: I handcuff it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I handcuff it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I handcuff it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "circle": [
+        "Sentence: I circle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I circle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I circle it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "raise": [
+        "Sentence: I raise it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I raise it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I raise it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "take": [
+        "Sentence: I take it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I take it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I take it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "overflow": [
+        "Sentence: I overflow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I overflow it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I overflow it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "tattoo": [
+        "Sentence: I tattoo it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I tattoo it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I tattoo it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "commission": [
+        "Sentence: I commission it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I commission it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I commission it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "prepare": [
+        "Sentence: I prepare it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I prepare it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I prepare it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "renew": [
+        "Sentence: I renew it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I renew it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I renew it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "negotiate": [
+        "Sentence: I negotiate it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I negotiate it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I negotiate it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "sight": [
+        "Sentence: I sight it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I sight it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I sight it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "head": [
+        "Sentence: I head it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I head it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I head it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "gush": [
+        "Sentence: I gush\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I gush\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I gush\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "drape": [
+        "Sentence: I drape it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I drape it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I drape it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "reduce": [
+        "Sentence: I reduce it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I reduce it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I reduce it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "depress": [
+        "Sentence: I depress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I depress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I depress it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "fashion": [
+        "Sentence: I fashion it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I fashion it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I fashion it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "reassure": [
+        "Sentence: I reassure it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I reassure it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I reassure it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "post": [
+        "Sentence: I post it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I post it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I post it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "threaten": [
+        "Sentence: I threaten it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I threaten it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I threaten it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "clip": [
+        "Sentence: I clip it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I clip it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I clip it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "hum": [
+        "Sentence: I hum it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I hum it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I hum it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "attempt": [
+        "Sentence: I attempt it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I attempt it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I attempt it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "lock": [
+        "Sentence: I lock it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I lock it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I lock it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "bail": [
+        "Sentence: I bail them out\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bail them out\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bail them out\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "watch": [
+        "Sentence: I watch it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I watch it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I watch it\nAgency: agency_neg\nPower: power_theme"
+    ],
+    "spur": [
+        "Sentence: I spur it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I spur it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I spur it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "steal": [
+        "Sentence: I steal it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I steal it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I steal it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "push": [
+        "Sentence: I push it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I push it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I push it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "plop": [
+        "Sentence: I plop it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I plop it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I plop it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "quicken": [
+        "Sentence: I quicken it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I quicken it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I quicken it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "award": [
+        "Sentence: I award it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I award it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I award it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "appraise": [
+        "Sentence: I appraise it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I appraise it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I appraise it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "spring": [
+        "Sentence: I spring\nAgency: agency_pos\nPower: nan",
+        "Sentence: I spring\nAgency: agency_pos\nPower: nan",
+        "Sentence: I spring\nAgency: agency_pos\nPower: nan"
+    ],
+    "deposit": [
+        "Sentence: I deposit it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I deposit it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I deposit it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "rain": [
+        "Sentence: I rain it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I rain it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I rain it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "swap": [
+        "Sentence: I swap it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I swap it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I swap it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "wobble": [
+        "Sentence: I wobble it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wobble it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wobble it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "recount": [
+        "Sentence: I recount it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I recount it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I recount it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "examine": [
+        "Sentence: I examine it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I examine it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I examine it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "rant": [
+        "Sentence: I rant\nAgency: agency_pos\nPower: nan",
+        "Sentence: I rant\nAgency: agency_pos\nPower: nan",
+        "Sentence: I rant\nAgency: agency_pos\nPower: nan"
+    ],
+    "crack": [
+        "Sentence: I crack it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I crack it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I crack it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "trick": [
+        "Sentence: I trick it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I trick it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I trick it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "land": [
+        "Sentence: I land it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I land it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I land it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "reconsider": [
+        "Sentence: I reconsider it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I reconsider it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I reconsider it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "scorch": [
+        "Sentence: I scorch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I scorch it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I scorch it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "contact": [
+        "Sentence: I contact it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I contact it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I contact it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "rise": [
+        "Sentence: I rise\nAgency: agency_pos\nPower: nan",
+        "Sentence: I rise\nAgency: agency_pos\nPower: nan",
+        "Sentence: I rise\nAgency: agency_pos\nPower: nan"
+    ],
+    "transfer": [
+        "Sentence: I transfer it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I transfer it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I transfer it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "startle": [
+        "Sentence: I startle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I startle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I startle it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "persuade": [
+        "Sentence: I persuade it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I persuade it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I persuade it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "crest": [
+        "Sentence: I crest it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I crest it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I crest it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "intensify": [
+        "Sentence: I intensify it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I intensify it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I intensify it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "overcome": [
+        "Sentence: I overcome it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I overcome it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I overcome it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "stop": [
+        "Sentence: I stop it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I stop it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I stop it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "purr": [
+        "Sentence: I purr it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I purr it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I purr it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "obsesses over": [
+        "Sentence: I obsess over it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I obsess over it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I obsess over it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "squat": [
+        "Sentence: I squat\nAgency: agency_pos\nPower: nan",
+        "Sentence: I squat\nAgency: agency_pos\nPower: nan",
+        "Sentence: I squat\nAgency: agency_pos\nPower: nan"
+    ],
+    "hurl": [
+        "Sentence: I hurl it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hurl it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I hurl it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "swirl": [
+        "Sentence: I swirl it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I swirl it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I swirl it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "last": [
+        "Sentence: I last\nAgency: agency_equal\nPower: nan",
+        "Sentence: I last\nAgency: agency_equal\nPower: nan",
+        "Sentence: I last\nAgency: agency_equal\nPower: nan"
+    ],
+    "wonder": [
+        "Sentence: I wonder it\nAgency: agency_equal\nPower: power_equal",
+        "Sentence: I wonder it\nAgency: agency_equal\nPower: power_equal",
+        "Sentence: I wonder it\nAgency: agency_equal\nPower: power_equal"
+    ],
+    "cop": [
+        "Sentence: I cop it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I cop it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I cop it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "proceed": [
+        "Sentence: I proceed\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I proceed\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I proceed\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "muster": [
+        "Sentence: I muster it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I muster it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I muster it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "confine": [
+        "Sentence: I confine it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I confine it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I confine it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "scribble": [
+        "Sentence: I scribble it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I scribble it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I scribble it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "tether": [
+        "Sentence: I tether it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I tether it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I tether it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "annoy": [
+        "Sentence: I annoy it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I annoy it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I annoy it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "register": [
+        "Sentence: I register it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I register it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I register it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "recover": [
+        "Sentence: I recover it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I recover it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I recover it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "intersect": [
+        "Sentence: I intersect it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I intersect it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I intersect it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "project": [
+        "Sentence: I project it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I project it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I project it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "douse": [
+        "Sentence: I douse it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I douse it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I douse it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "zip": [
+        "Sentence: I zip it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I zip it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I zip it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "surrender": [
+        "Sentence: I surrender it\nAgency: agency_neg\nPower: power_agent",
+        "Sentence: I surrender it\nAgency: agency_neg\nPower: power_agent",
+        "Sentence: I surrender it\nAgency: agency_neg\nPower: power_agent"
+    ],
+    "lose": [
+        "Sentence: I lose it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I lose it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I lose it\nAgency: agency_neg\nPower: power_theme"
+    ],
+    "tremble": [
+        "Sentence: I tremble\nAgency: agency_pos\nPower: nan",
+        "Sentence: I tremble\nAgency: agency_pos\nPower: nan",
+        "Sentence: I tremble\nAgency: agency_pos\nPower: nan"
+    ],
+    "spiral": [
+        "Sentence: I spiral it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I spiral it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I spiral it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "pave": [
+        "Sentence: I pave it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I pave it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I pave it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "bows to": [
+        "Sentence: He bows to her\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: He bows to her\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: He bows to her\nAgency: agency_neg\nPower: power_theme"
+    ],
+    "evolve": [
+        "Sentence: I evolve it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I evolve it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I evolve it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "resist": [
+        "Sentence: I resist it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I resist it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I resist it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "subdue": [
+        "Sentence: I subdue it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I subdue it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I subdue it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "gouge": [
+        "Sentence: I gouge it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I gouge it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I gouge it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "undress": [
+        "Sentence: I undress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I undress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I undress it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "touch": [
+        "Sentence: I touch it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I touch it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I touch it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "address": [
+        "Sentence: I address it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I address it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I address it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "teach": [
+        "Sentence: I teach it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I teach it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I teach it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "disapproves of": [
+        "Sentence: I disapprove of it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I disapprove of it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I disapprove of it\nAgency: agency_neg\nPower: power_theme"
+    ],
+    "employ": [
+        "Sentence: I employ it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I employ it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I employ it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "bore": [
+        "Sentence: I bore it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bore it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I bore it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "alarm": [
+        "Sentence: I alarm it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I alarm it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I alarm it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "bleach": [
+        "Sentence: I bleach it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bleach it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I bleach it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "pledge": [
+        "Sentence: I pledge it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I pledge it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I pledge it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "cuff": [
+        "Sentence: I cuff it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I cuff it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I cuff it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "insult": [
+        "Sentence: I insult it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I insult it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I insult it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "introduce": [
+        "Sentence: I introduce it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I introduce it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I introduce it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "propel": [
+        "Sentence: I propel it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I propel it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I propel it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "review": [
+        "Sentence: I review it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I review it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I review it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "fee": [
+        "Sentence: I fee it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I fee it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I fee it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "appear": [
+        "Sentence: I appear\nAgency: agency_neg\nPower: nan",
+        "Sentence: I appear\nAgency: agency_neg\nPower: nan",
+        "Sentence: I appear\nAgency: agency_neg\nPower: nan"
+    ],
+    "crash": [
+        "Sentence: I crash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I crash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I crash it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "suppress": [
+        "Sentence: I suppress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I suppress it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I suppress it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "cross": [
+        "Sentence: I cross it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I cross it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I cross it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "hide": [
+        "Sentence: I hide it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I hide it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I hide it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "defer": [
+        "Sentence: I defer it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I defer it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I defer it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "generate": [
+        "Sentence: I generate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I generate it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I generate it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "wash": [
+        "Sentence: I wash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wash it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I wash it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "mediate": [
+        "Sentence: I mediate it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I mediate it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I mediate it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "litter": [
+        "Sentence: I litter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I litter it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I litter it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "shimmer": [
+        "Sentence: I shimmer\nAgency: agency_neg\nPower: nan",
+        "Sentence: I shimmer\nAgency: agency_neg\nPower: nan",
+        "Sentence: I shimmer\nAgency: agency_neg\nPower: nan"
+    ],
+    "link": [
+        "Sentence: I link it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I link it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I link it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "drill": [
+        "Sentence: I drill it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I drill it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I drill it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "donate": [
+        "Sentence: I donate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I donate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I donate it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "carve": [
+        "Sentence: I carve it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I carve it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I carve it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "scuttle": [
+        "Sentence: I scuttle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I scuttle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I scuttle it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "dismiss": [
+        "Sentence: I dismiss it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dismiss it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I dismiss it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "dim": [
+        "Sentence: I dim it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I dim it\nAgency: agency_neg\nPower: power_theme",
+        "Sentence: I dim it\nAgency: agency_neg\nPower: power_theme"
+    ],
+    "crumble": [
+        "Sentence: I crumble it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I crumble it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I crumble it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "disrupt": [
+        "Sentence: I disrupt it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I disrupt it\nAgency: agency_pos\nPower: power_equal",
+        "Sentence: I disrupt it\nAgency: agency_pos\nPower: power_equal"
+    ],
+    "shin": [
+        "Sentence: I shin\nAgency: agency_equal\nPower: nan",
+        "Sentence: I shin\nAgency: agency_equal\nPower: nan",
+        "Sentence: I shin\nAgency: agency_equal\nPower: nan"
+    ],
+    "activate": [
+        "Sentence: I activate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I activate it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I activate it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "unbuckle": [
+        "Sentence: I unbuckle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I unbuckle it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I unbuckle it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "signal": [
+        "Sentence: I signal it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I signal it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I signal it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "consult": [
+        "Sentence: I consult it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I consult it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I consult it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "oversee": [
+        "Sentence: I oversee it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I oversee it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I oversee it\nAgency: agency_pos\nPower: power_agent"
+    ],
+    "displace": [
+        "Sentence: I displace it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I displace it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I displace it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "skitter": [
+        "Sentence: I skitter\nAgency: agency_pos\nPower: nan",
+        "Sentence: I skitter\nAgency: agency_pos\nPower: nan",
+        "Sentence: I skitter\nAgency: agency_pos\nPower: nan"
+    ],
+    "glitter": [
+        "Sentence: I glitter\nAgency: agency_neg\nPower: nan",
+        "Sentence: I glitter\nAgency: agency_neg\nPower: nan",
+        "Sentence: I glitter\nAgency: agency_neg\nPower: nan"
+    ],
+    "implement": [
+        "Sentence: I implement it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I implement it\nAgency: agency_pos\nPower: power_theme",
+        "Sentence: I implement it\nAgency: agency_pos\nPower: power_theme"
+    ],
+    "darken": [
+        "Sentence: I darken it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I darken it\nAgency: agency_pos\nPower: power_agent",
+        "Sentence: I darken it\nAgency: agency_pos\nPower: power_agent"
+    ]
+}

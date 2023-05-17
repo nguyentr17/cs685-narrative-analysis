@@ -1,15 +1,15 @@
 {
+    "narrator": 73,
     "ED": 15,
-    "narrator": 45,
-    "reader": 86,
-    "family": 21,
+    "reader": 101,
+    "family": 25,
     "doctor": 1,
     "medical_prof": 2,
-    "food": 10,
+    "food": 11,
     "ex_SO": 4,
     "friend": 6,
     "therapist": 1,
-    "SO_male": 1,
-    "SO_any": 2,
+    "SO_male": 2,
+    "SO_any": 3,
     "SO_female": 1
 }

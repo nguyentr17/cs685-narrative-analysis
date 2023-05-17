@@ -1,7 +1,9 @@
 {
+    "family": 0.08333333333333333,
     "narrator": -0.13999999999999999,
     "food": -0.5,
     "reader": 0.12,
-    "family": 0.25,
+    "doctor": 0.0,
+    "medical_prof": 0.0,
     "ED": -1.0
 }

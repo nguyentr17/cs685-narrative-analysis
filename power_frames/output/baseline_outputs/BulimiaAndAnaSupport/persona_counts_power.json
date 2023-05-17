@@ -1,11 +1,12 @@
 {
-    "narrator": 42,
-    "doctor": 4,
-    "medical_prof": 4,
-    "food": 29,
+    "narrator": 62,
+    "reader": 36,
+    "doctor": 5,
+    "medical_prof": 7,
+    "food": 32,
     "ED": 11,
-    "reader": 30,
-    "family": 8,
+    "family": 11,
     "ex_SO": 5,
+    "therapist": 2,
     "friend": 1
 }

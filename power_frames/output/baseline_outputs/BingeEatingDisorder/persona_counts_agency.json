@@ -1,15 +1,15 @@
 {
-    "narrator": 59,
-    "doctor": 9,
-    "medical_prof": 12,
+    "narrator": 86,
+    "doctor": 11,
+    "medical_prof": 14,
     "ED": 23,
-    "reader": 89,
-    "family": 19,
+    "reader": 113,
+    "family": 22,
     "food": 15,
     "SO_neutral": 2,
-    "SO_any": 5,
+    "SO_any": 6,
     "therapist": 2,
-    "SO_male": 3,
-    "friend": 5,
-    "ex_SO": 0
+    "SO_male": 4,
+    "friend": 6,
+    "ex_SO": 1
 }
