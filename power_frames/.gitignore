@@ -1,7 +1,5 @@
 openai_key.txt
 neuralcoref
 narratives.csv
-power-frames
-power-frames-ORIGINAL
 .DS_Store
 data/glove.6B.300d.txt
